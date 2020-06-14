@@ -1,5 +1,6 @@
 /* pages/test/test.wxss */
 .water{
-   width:200rpx;
-   height: 200rpx;
+   width:225rpx;
+   height: 225rpx;
+   /* 切图中是iphone6的尺寸 所以按照像素需要除以二 但是因为是rpx又乘以2 所以直接按照切图上的数字写 */
 }
