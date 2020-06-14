@@ -1,0 +1,10 @@
+<!--components/my-water/my-water.wxml-->
+
+
+<view class="boll">     
+        <view class="water w1"></view>
+        <view class="water w2"></view>
+        <view class="water"></view>
+</view>
+
+

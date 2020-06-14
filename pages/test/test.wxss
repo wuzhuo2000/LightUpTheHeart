@@ -1,0 +1,5 @@
+/* pages/test/test.wxss */
+.water{
+   width:200rpx;
+   height: 200rpx;
+}
