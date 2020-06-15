@@ -3,4 +3,6 @@
 <view class="water" >
     <my-water size="70"  />
 </view>
+<text>vant weapp 组件使用</text>
+<van-circle value="{{ 30 }}" text="text" />
 
