@@ -2,9 +2,10 @@
 
 
 <view class="boll">     
-        <view class="water w1"></view>
-        <view class="water w2"></view>
-        <view class="water"></view>
+        <view class="water w1" style="top:{{100-size}}%"></view>
+        <view class="water w2" style="top:{{100-size}}%"></view>
+        <view class="water" style="top:{{100-size}}%"></view>
+        
 </view>
 
 
