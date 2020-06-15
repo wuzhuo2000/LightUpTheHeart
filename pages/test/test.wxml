@@ -1,8 +1,8 @@
 <!--pages/test/test.wxml-->
 <text>pages/test/test.wxml</text>
+<!-- 70为百分比 -->
 <view class="water" >
-    <my-water size="70"  />
+    <my-water size="50"  />
 </view>
-<text>vant weapp 组件使用</text>
-<van-circle value="{{ 30 }}" text="text" />
+
 

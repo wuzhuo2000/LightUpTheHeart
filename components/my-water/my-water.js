@@ -14,7 +14,7 @@ Component({
      * 组件的初始数据
      */
     data: {
-
+        cirsize:265
     },
 
     /**
@@ -22,5 +22,20 @@ Component({
      */
     methods: {
 
-    }
+    },
+    lifetimes: {
+        created() {
+            var self = this;
+            wx.getSystemInfo({
+                complete: (res) => {
+                    var rpx = res.windowWidth/375/2;  
+                    self.setData({
+                        cirsize:self.data.cirsize*rpx
+                    })  
+                },
+              })
+        }
+            
+       
+      }
 })
