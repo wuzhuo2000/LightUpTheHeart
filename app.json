@@ -1,8 +1,13 @@
 {
     "pages": [
+        "pages/adhereclockin/adhereclockin", 
+        "pages/WeeklySleepRecord/WeeklySleepRecord",
+        "pages/clockin/clockin",
         "pages/test/test",
         "pages/index/index",
-        "pages/logs/logs"
+        "pages/logs/logs",
+        "pages/SelectDefaultTraining/SelectDefaultTraining",
+        "pages/TrainingContent/TrainingContent"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -11,5 +16,32 @@
         "navigationBarTextStyle": "black"
     },
     "style": "v2",
-    "sitemapLocation": "sitemap.json"
+    "sitemapLocation": "sitemap.json",
+    "tabBar": {
+        "color": "#7A7E83",
+        "selectedColor": "#000000",
+        "backgroundColor": "#ffffff",
+        "borderStyle": "black",
+        "list": [
+            {
+                "pagePath": "pages/WeeklySleepRecord/WeeklySleepRecord",
+                "text": "学院",
+                "iconPath": "/assets/images/tabbar/首页-active.png",
+                "selectedIconPath": "/assets/images/tabbar/首页-active.png"
+            },
+            {
+                "pagePath": "pages/test/test",
+                "text": "睡眠分析",
+                "iconPath": "/assets/images/tabbar/分析.png",
+                "selectedIconPath": "/assets/images/tabbar/分析-active.png"
+            },
+            {
+                "pagePath": "pages/SelectDefaultTraining/SelectDefaultTraining",
+                "text": "我的",
+                "iconPath": "/assets/images/tabbar/我的.png",
+                "selectedIconPath": "/assets/images/tabbar/我的-active.png"
+            }
+        ],
+        "position": "bottom"
+    }
 }

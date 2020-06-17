@@ -1,0 +1,42 @@
+<!--pages/adhereclockin/adhereclockin.wxml-->
+<view class="page">
+    <view class="top">
+        <text class="title">坚持打卡</text>
+        <view class="day">
+            <view class="item {{index<=0 ? 'active' : ''}}" wx:for="{{7}}" wx:key="item">
+                <image wx:if="{{index<=0}}" src="/assets/images/clockin/对号.png"></image>
+                <image wx:else src="/assets/images/clockin/对号1.png"></image>
+                <text>第{{index+1}}天</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="date">
+        <view class="title">
+            <view class="zuo"><image src="/assets/images/clockin/zuo.png"></image> 昨天</view>
+            <view class="jin">今天</view>
+            <view class="ming">明天<image src="/assets/images/clockin/you.png"></image></view>
+        </view>
+         <swiper  circular display-multiple-items="3" bindchange="change">
+            <swiper-item wx:for="{{imgList}}" wx:key="item" bindtap="changeClick" data-index="{{index}}">
+                <view class="itembox {{clickIndex == index ?'active' : ''}} ">
+                    <view class="img">
+                        <image src="/assets/images/clockin/{{item.img}}@2x.png" style="height:116rpx;width:116rpx"></image>
+                    </view>
+                    <text class="title">{{item.title}}</text>
+                    <text class="days">打卡1天</text>
+                </view>
+            </swiper-item>
+         </swiper>
+         <view class="doc">
+            <view class="docitem {{index == currentIndex ? 'active' : ''}} " wx:for="{{imgList}}" wx:key="item" ></view>
+         </view>
+    </view>
+
+    <view class="bottom">
+        <view class="title">不赖床</view>
+        <view class="cont">睡醒之后不赖床，减少赖床时间能帮助整 合和加深睡眠，在床上话费过多时间，会 导致片段睡眠和浅睡眠。不管你是否感觉 睡够了，第二天都不应该赖床哦！</view>
+        <view class="btn">打卡</view>
+    </view>
+</view>
+

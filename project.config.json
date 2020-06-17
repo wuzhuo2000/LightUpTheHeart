@@ -4,13 +4,14 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"postcss": true,
 		"preloadBackgroundData": false,
 		"minified": true,
 		"newFeature": true,
 		"coverView": true,
+		"nodeModules": true,
 		"autoAudits": false,
 		"showShadowRootInWxmlPanel": true,
 		"scopeDataCheck": false,
@@ -22,9 +23,8 @@
 			"disablePlugins": [],
 			"outputPath": ""
 		},
-		"useCompilerModule": false,
-		"userConfirmedUseCompilerModuleSwitch": false,
-		"nodeModules": true
+		"useCompilerModule": true,
+		"userConfirmedUseCompilerModuleSwitch": false
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.11.2",
@@ -45,13 +45,42 @@
 			"current": -1,
 			"list": []
 		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
 		"game": {
 			"currentL": -1,
 			"list": []
 		},
-		"miniprogram": {
+		"gamePlugin": {
 			"current": -1,
 			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "test",
+					"pathName": "pages/test/test",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择默认训练",
+					"pathName": "pages/SelectDefaultTraining/SelectDefaultTraining",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "训练内容",
+					"pathName": "pages/TrainingContent/TrainingContent",
+					"scene": null
+				}
+			]
 		}
 	}
 }

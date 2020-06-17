@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "training-cont":"/components/training-cont/training-cont"
+  },
+  "navigationBarTitleText": "选择默认助眠训练"
+}

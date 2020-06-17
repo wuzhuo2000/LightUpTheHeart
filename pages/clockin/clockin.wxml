@@ -1,0 +1,7 @@
+<!--pages/clockin/clockin.wxml-->
+<view class="box">
+    <view wx:for="{{imgList}}" wx:key="item">
+        <image src="/assets/images/clockin/{{item.img}}@2x.png"></image>
+        <text>\n{{item.title}}</text>
+    </view>
+</view>

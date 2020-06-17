@@ -2,7 +2,7 @@
 <text>pages/test/test.wxml</text>
 <!-- 70为百分比 -->
 <view class="water" >
-    <my-water size="50"  />
+    <my-water size="70"  />
 </view>
 
 

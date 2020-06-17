@@ -1,0 +1,37 @@
+<!--pages/WeeklySleepRecord/WeeklySleepRecord.wxml-->
+<view class="nav">
+    <my-nav bg="/assets/images/weeklysleeprecord/bg.png" backbtncolor="white" />
+</view>
+<view class="topcont">
+    <text class="title">第一周睡眠记录\n</text>
+    <text class="date">2020/06-06~2020/06-12</text>
+    <view class="fenxi">
+        <image src="/assets/images/weeklysleeprecord/分析.png"></image>
+        睡眠分析
+    </view>
+</view>
+
+<view class="bodycont">
+
+    <view class="box" wx:for="{{7}}" wx:key="item">
+        <view class="fenge" wx:if="{{index !=0 }}"></view>   
+        <view class="doc"></view>
+        <view class="title">
+           2020年06月06日
+        </view>
+        <view class="cont">
+            <view class="moon">  
+                <image src="/assets//images/weeklysleeprecord/moon.png"></image>      
+                <text class="littitle">睡眠日记</text>
+                <view class="butian">我要补填</view>
+            </view>
+            <view class="sun">
+             <image src="/assets//images/weeklysleeprecord/moon.png"></image> 
+            <text class="littitle">白天行为</text> <text class="zhuangtai">正常</text><text>\n</text>
+            <text class="content">小睡30min,早上饱餐,中午饱餐,晚上运动小睡30min,早上饱餐,中午饱餐,晚上运动</text>
+            
+            </view>
+        </view> 
+    </view>
+</view>
+

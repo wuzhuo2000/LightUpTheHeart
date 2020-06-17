@@ -1,0 +1,5 @@
+<view class="halfPage">
+    <image mode="widthFix" src="{{bg}}" class="image"/>
+    <view  wx:if="{{isshowbackbtn}}"  class="arrow" bindtap="goback" style="  border-color:  {{backbtncolor}};" ></view>
+    <view class="home"></view>
+</view>

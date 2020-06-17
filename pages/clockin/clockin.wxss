@@ -1,0 +1,26 @@
+/* pages/clockin/clockin.wxss */
+.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box view{
+    width: 33%;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 53rpx  ;
+    padding-bottom: 22rpx;
+}
+.box view image{
+    width: 116rpx;
+    height: 116rpx;
+    margin: 0 auto;
+}
+.box view text{
+    font-size: 26rpx;
+    line-height: 37rpx;
+    letter-spacing:0.79rpx;
+    color: #333333;
+    padding-top: 23rpx;
+}

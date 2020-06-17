@@ -1,0 +1,29 @@
+/* components/my-nav/my-nav.wxss */
+.halfPage{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+.image{
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100vw;
+  height: 30vh;
+  overflow: hidden;
+}
+
+.arrow{
+  position: fixed;
+  left: 30rpx;
+  top: 70rpx;
+  display: flex;
+  width: 17.5rpx;
+  height:17.5rpx;
+  border-left: 4rpx solid #6dc6ff;
+  border-top: 4rpx solid #6dc6ff;
+  transform: rotate(-45deg);
+}
