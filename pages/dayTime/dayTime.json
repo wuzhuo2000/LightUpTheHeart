@@ -1,0 +1,9 @@
+{
+  "usingComponents": {
+    "week":"/components/week/week",
+    "title":"/components/title/title",
+    "day_con":"/components/day_con/day_con",
+    "btn":"/components/btn/btn"
+  },
+  "navigationBarTitleText": "记录白天行为"
+}

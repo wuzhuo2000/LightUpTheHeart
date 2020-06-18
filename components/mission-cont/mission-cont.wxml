@@ -1,0 +1,7 @@
+<!--components/mission-cont/mission-cont.wxml-->
+<view class="box">
+  <image src="{{img}}" class="img"></image>
+  <view class="title">{{title}}</view>
+  <view class="con">{{con}}</view>
+
+</view> 

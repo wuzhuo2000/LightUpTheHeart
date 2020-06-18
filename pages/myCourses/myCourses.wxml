@@ -1,0 +1,48 @@
+<view class="mykc">
+  <view class="navyy"></view>
+  <week></week>
+  <view class="mycon">
+    <view class="fl">签到总计<text>1</text>次</view>
+    <view class="fr">今日完成度50%</view>
+  </view>
+  <view class="swiper">
+    <view class="page-section page-section-spacing swiper">
+      <swiper style="height:100%;" previous-margin="65rpx" next-margin="65rpx">
+        <swiper-item wx:for="{{lb}}" wx:key="index">
+          <view class="swiper-item item1">
+            <view class="lb1">
+              <image src="{{item.src}}"></image>
+              <view class="h3">{{item.title}}</view>
+              <view class="p">{{item.con}}</view>
+              <view class="{{item.state?'wanc':'ywc'}}">{{item.state?"去完成":"已完成"}}</view>
+              <image src="../../assets/images/daytime/wanc.png" wx:if="{{!item.state}}" class="wancheng"></image>
+            </view>
+          </view>
+        </swiper-item>
+        <!-- <swiper-item>
+          <view class="swiper-item item2">
+            <view class="lb1">
+              <image src="../../assets/images/daytime/lb2.png"></image>
+              <view class="h3">记录昨晚睡眠</view>
+              <view class="p">您做记录的睡眠信息是医生为您提供咨询的依据</view>
+              <view class="wanc">去完成</view>
+            </view>
+          </view>
+        </swiper-item>
+        <swiper-item>
+          <view class="swiper-item item3">
+            <view class="lb1">
+              <image src="../../assets/images/daytime/lb3.png"></image>
+              <view class="h3">睡眠卫生指南14条</view>
+              <view class="p">改掉不良习惯，还您良好睡眠</view>
+              <view class="wanc">去完成</view>
+            </view>
+          </view>
+        </swiper-item> -->
+      </swiper>
+    </view>
+  </view>
+  <view class="myfooter">
+    *研究发现失眠的认知行为治疗对失眠有更好的治疗效果，了解睡眠知识虽然不能马上改善我的失眠状况，但可以帮助我发现自己的睡眠问题。为了让睡眠变好，我要坚持下去！
+  </view>
+</view>

@@ -1,0 +1,19 @@
+<!--components/my-number/my-number.wxml-->
+<view class="content">
+<text class="weightText"></text><text class="weightText1">您昨晚醒过吗？</text>
+</view>
+<view class="content1">
+  <image src="/assets/images/sleepimg/fenzu4.svg" class="bedSize"></image>
+  <text class="lingText">夜醒次数</text>
+  <view class="rightF">
+    <text bindtap="decrement">-</text>{{counter}}<text bindtap="increment">+</text>
+  </view>
+</view>
+<view class="content1">
+  <image src="/assets/images/sleepimg/fenzu.svg" class="bedSize"></image>
+  <text class="lingText">总时长(分钟)</text>
+  <view class="rightF">
+    <text bindtap="decrement1">-</text>{{counter1}}<text bindtap="increment1">+</text>
+  </view>
+</view>
+<view class="interval"></view>

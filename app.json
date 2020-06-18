@@ -1,13 +1,27 @@
 {
     "pages": [
-        "pages/adhereclockin/adhereclockin", 
-        "pages/WeeklySleepRecord/WeeklySleepRecord",
-        "pages/clockin/clockin",
-        "pages/test/test",
         "pages/index/index",
+
+        "pages/addtime/addtime",
+        "pages/dayBehavior/dayBehavior",
+        "pages/dayTime/dayTime",
+
+        "pages/WeeklySleepRecord/WeeklySleepRecord",
+        "pages/adhereclockin/adhereclockin", 
+        "pages/clockin/clockin",
+
+        "pages/myCourses/myCourses",
+        "pages/coursesCon/coursesCon",
+
+        "pages/college/college",
+
+        "pages/RecordSleep/RecordSleep",
+        
+        "pages/test/test",
         "pages/logs/logs",
         "pages/SelectDefaultTraining/SelectDefaultTraining",
-        "pages/TrainingContent/TrainingContent"
+        "pages/TrainingContent/TrainingContent",
+        "pages/my/my"
     ],
     "window": {
         "backgroundTextStyle": "light",
@@ -24,22 +38,22 @@
         "borderStyle": "black",
         "list": [
             {
-                "pagePath": "pages/WeeklySleepRecord/WeeklySleepRecord",
+                "pagePath": "pages/college/college",
                 "text": "学院",
-                "iconPath": "/assets/images/tabbar/首页-active.png",
-                "selectedIconPath": "/assets/images/tabbar/首页-active.png"
+                "iconPath": "/assets/images/tabbar2/home.png",
+                "selectedIconPath": "/assets/images/tabbar2/home-active.png"
             },
             {
-                "pagePath": "pages/test/test",
+                "pagePath": "pages/RecordSleep/RecordSleep",
                 "text": "睡眠分析",
-                "iconPath": "/assets/images/tabbar/分析.png",
-                "selectedIconPath": "/assets/images/tabbar/分析-active.png"
+                "iconPath": "/assets/images/tabbar2/fenxi.png",
+                "selectedIconPath": "/assets/images/tabbar2/fenxi-active.png"
             },
             {
-                "pagePath": "pages/SelectDefaultTraining/SelectDefaultTraining",
+                "pagePath": "pages/my/my",
                 "text": "我的",
-                "iconPath": "/assets/images/tabbar/我的.png",
-                "selectedIconPath": "/assets/images/tabbar/我的-active.png"
+                "iconPath": "/assets/images/tabbar2/me.png",
+                "selectedIconPath": "/assets/images/tabbar2/me-active.png"
             }
         ],
         "position": "bottom"

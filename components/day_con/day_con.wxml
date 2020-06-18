@@ -1,0 +1,6 @@
+<view class="early">
+  <view class="item" wx:for="{{biaoqing}}" wx:key="index" bindtap="pj" data-index="{{index}}">
+    <image src="{{item.src}}"></image>
+    <text class="{{num==index?'black':''}}">{{item.py}}</text>
+  </view>
+</view>

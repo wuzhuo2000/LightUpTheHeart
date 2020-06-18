@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "OneEarly":"/components/OneEarly/OneEarly",
+    "Early":"/components/Early/Early",
+    "btn":"/components/btn/btn"
+  },
+  "navigationBarTitleText":"日间行为"
+}

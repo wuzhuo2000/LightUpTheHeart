@@ -1,0 +1,42 @@
+<!--components/my-record/my-record.wxml-->
+<view class="section">
+  <picker mode="time" value="{{time}}" bindchange="bindTimeChange">
+    <view class="picker">
+    <text class="lingText">上床</text>
+      <image src="/assets/images/sleepimg/shangchuang.svg" class="bedSize"></image>
+      <image src="/assets/images/sleepimg/fanhui.svg" class="textBack"></image>
+      <text class="rightF1">{{time}}</text>
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <picker mode="time" value="{{time}}" bindchange="bindTimeChange1">
+    <view class="picker">
+    <text class="lingText">睡着</text>
+    <image src="/assets/images/sleepimg/shuizhao.svg" class="bedSize1"></image>
+    <image src="/assets/images/sleepimg/fanhui.svg" class="textBack"></image>
+      <text class="rightF">{{time1}}</text>
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <picker mode="time" value="{{time}}" bindchange="bindTimeChange2">
+    <view class="picker">
+    <text class="lingText">睡醒</text>
+    <image src="/assets/images/sleepimg/shuixing.svg" class="bedSize2"></image>
+    <image src="/assets/images/sleepimg/fanhui.svg" class="textBack"></image>
+      <text class="rightF">{{time2}}</text>
+    </view>
+  </picker>
+</view>
+<view class="section">
+  <picker mode="time" value="{{time}}" bindchange="bindTimeChange3">
+    <view class="picker"> 
+    <text class="lingText">起床</text>
+    <image src="/assets/images/sleepimg/qichuang.svg" class="bedSize3"></image>
+    <image src="/assets/images/sleepimg/fanhui.svg" class="textBack"></image>
+     <text class="rightF">{{time3}}</text>
+    </view>
+  </picker>
+</view>
+<view class="interval"></view>

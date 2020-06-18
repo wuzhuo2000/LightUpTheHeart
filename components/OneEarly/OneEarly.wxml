@@ -1,0 +1,4 @@
+<view class="OneEarly">
+  <slot name="img"></slot>
+  <slot name="title"></slot>
+</view>

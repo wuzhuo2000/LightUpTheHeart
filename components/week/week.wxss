@@ -1,0 +1,42 @@
+/* components/week/week.wxss */
+.week{
+  width:100%;
+  height:142rpx;
+  border-bottom:1rpx solid #ededed;
+  border-top:1rpx solid #ededed;
+  background:white;
+}
+.week_con{
+  width:100%;
+  height:50%;
+  display:flex;
+}
+.week_con text{
+  flex-grow:1;
+  text-align:center;
+  line-height:71rpx;
+  font-size:22rpx;
+  color:gray;
+}
+.week_con1{
+  width:100%;
+  height:50%;
+  display:flex;
+}
+.week_con1 view{
+  flex-grow:1;
+  text-align:center;
+  line-height:60rpx;
+  font-size:26rpx;
+}
+.week_con1 view text{
+  padding:15rpx 17rpx;
+  border-radius:50%;
+}
+.blue{
+  background:#1c52f0;
+  color:white;
+}
+.week_con1 view text:hover{
+  background:#dce5fd;
+}

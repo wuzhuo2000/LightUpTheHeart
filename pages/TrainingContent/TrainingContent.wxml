@@ -1,2 +1,36 @@
 <!--pages/TrainingContent/TrainingContent.wxml-->
-<my-nav bg="https://static.oneplus.cn/data/attachment/forum/202006/15/093609b0kthk5nt5jzcezc.jpg" />
+<view class="courses">
+  <view class="video">
+    <video id="myVideo" controls="{{false}}" show-center-play-btn="{{false}}" bindended="end" style="height:607rpx;width:750rpx;" src="{{video}}" bindtap="play" bindtimeupdate="bc"></video>
+    <image src="../../assets/images/daytime/bf.png" class="bf" hidden="{{!state}}" bindtap="play"></image>
+    <view class="bf_time">
+      <text class="bf_time_left">{{currentTime}}</text>
+      <text class="bf_time_right">{{duration}}</text>
+    </view>
+    <view class="jdt" bindtouchmove="touch">
+      <view class="bj"></view>
+      <view class="jd" style="width:{{jd}}"><view class="jd_yd"></view></view>
+    </view>
+  </view>
+  <view class="tit">晨间呼吸觉知练习</view>
+  <title>
+    <text slot="title">课程介绍</text>
+  </title>
+  <view class="description">
+    关注您身体的每一个部位，缓解躯体不适
+  </view>
+  <title>
+    <text slot="title">使用说明</text>
+  </title>
+  <view class="content">
+    <view class="txt">
+      <view class="xyd"></view>让思想与身体连接。
+    </view>
+    <view class="txt">
+      <view class="xyd"></view>关注您身体的每一个部位，缓解躯体不适。
+    </view>
+    <view class="txt">
+      <view class="xyd"></view>身体扫描是一个基本的躺卧室训练，可以在家自己联系。系统扫描引导我们去一个直接的关注身体每一个部位。
+    </view>
+  </view>
+</view>

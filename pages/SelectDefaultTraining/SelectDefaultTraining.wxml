@@ -1,3 +1,3 @@
-<view wx:for="{{5}}" wx:key="item">
+<view wx:for="{{5}}" wx:key="item" style="margin-top:10rpx" class="tr">
     <training-cont  title="正念呼吸" cont="调整呼吸,帮助您缓解紧张焦虑" id="训练id" img="https://static.oneplus.cn/data/attachment/forum/202006/15/093609b0kthk5nt5jzcezc.jpg" />
 </view> 

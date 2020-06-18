@@ -1,0 +1,7 @@
+<view class="early">
+  <view class="item" wx:for="{{day}}" wx:key="index" bind:tap="cik" data-index="{{index}}">
+    <image src="{{item.active}}" wx:if="{{item.state}}"></image>
+    <image src="{{item.src}}" wx:else></image>
+    <text class="{{item.state==true?'black':''}}">{{item.con}}</text>
+  </view>
+</view>

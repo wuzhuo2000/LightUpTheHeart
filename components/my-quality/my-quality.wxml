@@ -1,0 +1,27 @@
+<!--components/my-quality/my-quality.wxml-->
+<view class="content">
+<text class="weightText"></text><text class="weightText1">睡眠质量</text>
+</view>
+<view class="flexView">
+  <view>
+    <image src="/assets/images/sleepimg/fenzu1.svg"></image>
+    <text>十分差</text>
+  </view>
+  <view>
+    <image src="/assets/images/sleepimg/cha.svg"></image>
+    <text style="">较差</text>
+  </view>
+  <view>
+    <image src="/assets/images/sleepimg/fenzu2.svg"></image>
+    <text style="">正常</text>
+  </view>
+  <view>
+    <image src="/assets/images/sleepimg/bijiaohao.svg"></image>
+    <text>比较好</text>
+  </view>
+  <view>
+    <image src="/assets/images/sleepimg/feichangbang.svg"></image>
+    <text>非常棒</text>
+  </view>
+</view>
+<view class="interval"></view>

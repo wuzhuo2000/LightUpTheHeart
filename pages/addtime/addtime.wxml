@@ -1,0 +1,36 @@
+<view class="addtime">
+  <view class="con">
+    <view class="logo">
+      <image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3573952474,621422993&fm=26&gp=0.jpg"></image>
+      <text>设置你的休憩时间，好的睡眠是健康的第一步</text>
+    </view>
+    <view class="selectTime">
+     <picker-view indicator-style="height: 50px;" mask-style="color:blue" style="width: 100%; height: 100%;" value="{{value}}" bindchange="bindChange">
+      <picker-view-column>
+        <view class="icon-container {{index1[0]==0?'show':''}}" style="line-height: 50px; text-align: center;">
+          上午
+        </view>
+        <view class="icon-container {{index1[0]==1?'show':''}}" style="line-height: 50px; text-align: center;">
+          下午
+        </view>
+      </picker-view-column>
+      <picker-view-column>
+        <view class="{{index1[1]==index?'show':''}}" wx:for="{{hours}}"  wx:key="this" style="line-height: 50px; text-align: center;">{{item}}</view>
+      </picker-view-column>
+      <picker-view-column>
+        <view class="{{index1[2]==index?'show':''}}" wx:for="{{fz}}" wx:key="this" style="line-height: 50px; text-align: center;">{{item}}</view>
+      </picker-view-column>
+    </picker-view>
+    </view>
+    <view class="times">
+      <image src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=3573952474,621422993&fm=26&gp=0.jpg"></image>
+      <text>总时长(分钟)</text>
+      <view class="btns">
+        <view class="btn1" bindtap="subtract">-</view>
+          <text class="num">{{num}}</text>
+        <view class="btn1" bindtap="add">+</view>
+      </view>
+    </view>
+  </view>
+  <btn><text slot="con">保存</text></btn>
+</view>

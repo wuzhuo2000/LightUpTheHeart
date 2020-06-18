@@ -1,0 +1,385 @@
+/* pages/college/college.wxss */
+/* 轮播 */
+.swiper-wrapper{
+  flex: 1;
+  width:100%;
+  padding-top: 10rpx;
+  margin: 0 auto;
+  position: relative;
+}
+swiper{
+  width:100%;
+  height:280rpx;
+}
+
+.swiper-item{
+  display: flex;
+  align-items: center;
+}
+
+.swiper-item image{
+  width: 579rpx;
+  height: 229rpx;
+  margin: 0 auto;
+  border-radius: 8rpx;
+  margin-top:27rpx
+}
+.swiper-item-active image{
+  width: 670rpx;
+  height: 280rpx;
+  margin-top:0rpx
+}
+.kong{
+  width:750rpx;
+  height: 22rpx;
+  background:#F4F5F7;
+}
+
+.dots{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-top:16rpx;
+  display: flex;
+  justify-content: center;
+}
+.dot{
+  margin: 0 8rpx;
+  width:8rpx;
+  height:8rpx;
+  background:#B0B0B0;
+  border-radius:50%;
+}
+.dot.active{
+  width: 35rpx;
+  height:8rpx;
+  border-radius:4rpx;
+  background: #462DC6;
+}
+
+/* 今日睡眠 */
+.sleep{
+  width:100%;
+  position: relative;
+  z-index: 999;
+}
+.title{
+  /* width:142rpx;
+  height:48rpx; */
+  line-height: 48rpx;
+  color:rgba(78,78,78,1);
+  letter-spacing:1rpx;
+  line-height:34rpx;
+  font-family:PingFangSC-Semibold,PingFang SC;
+  font-weight:600;
+  font-size:34rpx;
+  margin-left:28rpx;
+  margin-top:25rpx;
+  display: inline-block;
+}
+.riji{
+  /* width:268rpx;
+  height:37rpx; */
+  background:rgba(255,239,239,1);
+  border-radius:10rpx 0rpx 10rpx 0rpx;
+  display: inline-block;
+  margin-top:31rpx;
+  margin-left:8rpx;
+}
+.riji view{
+  font-family:PingFangHK-Medium,PingFangHK;
+  font-weight:500;
+  color:rgba(254,122,122,1);
+  letter-spacing: 1.2rpx;
+  font-size: 24rpx;
+  line-height: 33rpx;
+  letter-spacing:1rpx;
+  margin:2rpx 8rpx
+}
+.jilu{
+  line-height: 37rpx;
+  font-family:PingFangHK-Regular,PingFangHK;
+  font-weight:400;
+  font-size: 26rpx;
+  color:rgba(102,102,102,1);
+  letter-spacing: 1rpx;
+  position: absolute;
+  left:593rpx;
+  top:31rpx;
+}
+
+.gengduo{
+  width:13rpx;
+  height: 23rpx;
+  color:#000000;
+  position: absolute;
+  left:709rpx;
+  top:37rpx
+}
+.water{
+  width:265rpx;
+  height: 265rpx;
+  position: relative;
+  margin:  0 auto;
+  top:49rpx;
+  z-index:-1;
+}
+.data{
+ position: absolute;
+ left:106rpx;
+  top:58rpx
+}
+.size{
+  line-height: 75rpx;
+  font-family:PingFangHK-Medium,PingFangHK;
+  font-weight:500;
+  font-size: 54rpx;
+  color:rgba(28,83,239,1);
+  letter-spacing:2px;
+  
+}
+.cent{
+  font-family:PingFangHK-Medium,PingFangHK;
+  font-weight:500;
+  font-size: 24rpx;
+  color:rgba(28,83,239,1);
+  letter-spacing: 3rpx;
+}
+.record{
+  position: absolute;
+  line-height: 33rpx;
+  font-family:PingFangHK-Medium,PingFangHK;
+  font-weight:500;
+  font-size: 24rpx;
+  color: #1C53EF;
+  letter-spacing: 3rpx;
+  left:76rpx;
+  top:149rpx
+}
+.quality{
+  border-radius:29rpx;
+  background:rgba(34,88,236,1);
+  margin-top:68rpx;
+  margin-left:245rpx;
+  display: inline-block;
+}
+.quality view{
+  line-height:40rpx;
+  font-size: 28rpx;
+  color:rgba(255,255,255,1);
+  letter-spacing: 1.4rpx;
+  font-family:PingFangHK-Medium,PingFangHK;
+  font-weight:500;
+  margin:9rpx 42rpx;
+}
+.gist{
+  line-height:33rpx;
+  font-family:PingFangHK-Regular,PingFangHK;
+  font-weight:400;
+  font-size: 24rpx;
+  color:rgba(153,153,153,1);
+  letter-spacing: 1rpx;
+  margin-top:21rpx;
+  margin-left:110rpx;
+}
+.mission-cont1{
+  float: left;
+  margin-left:22rpx;
+  /* margin-top:27rpx; */
+  margin-bottom:32rpx;
+}
+.time{
+  display: inline-block;
+  margin-top:45rpx
+}
+.timet{
+  margin-top:22rpx;
+}
+.time text{
+  line-height:33rpx;
+  font-size: 24rpx;
+  font-family:PingFangHK-Regular,PingFangHK;
+  font-weight:400;
+  color: #2258EC;
+  letter-spacing: 1rpx;
+}
+.fenge{
+  margin-left:16rpx;
+  margin-right:17rpx
+}
+.time image{
+  display: inline-block;
+  border:1px dashed #888;
+}
+.shuijueimg{
+  width:35rpx;
+  height:21rpx;
+  margin-left:131rpx;
+  margin-right:16rpx
+}
+.qiimg{
+  width:35rpx;
+  height:25rpx;
+  margin-right:11rpx;
+}
+
+/* 今日任务、 */
+.task{
+  width:100%;
+  position: relative;
+}
+.con_left{
+  line-height:48rpx;
+  font-family:PingFangHK-Medium,PingFangHK;
+  font-weight:500;
+  font-size: 34rpx;
+  color: #4E4E4E;
+  letter-spacing:1px;
+  position: absolute;
+  left:28rpx;
+  top:27rpx;
+}
+.con_right{
+  line-height:37rpx;
+  color:rgba(102,102,102,1);
+  font-family:PingFangHK-Regular,PingFangHK;
+  font-weight:400;
+  font-size: 26rpx;
+  letter-spacing: 1rpx;
+  position: absolute;
+  left:560rpx;
+  top:33rpx;
+  display: inline-block;
+}
+.symbol{
+  width: 13rpx;
+  height: 23rpx;
+  color: #000000;
+  position: absolute;
+  left:709rpx;
+  top:40rpx
+}
+.training-cont1{
+  margin-top:152rpx
+}
+
+/* 报告分析 */
+.questionnaire{
+  width:688rpx;
+  height:188rpx;
+  position: absolute;
+  top:106rpx;
+  left:31rpx;
+  margin-bottom:36rpx;
+}
+.accomplish{
+  width:91rpx;
+  height:37rpx;
+  background:rgba(230,250,198,0.71);
+  border-radius:10rpx 0rpx 10rpx 0rpx;
+  display: inline-block;
+  position: absolute;
+  left:187rpx;
+  top:39rpx
+}
+.accomplish view{
+  /* width:70rpx;
+  height:30rpx; */
+  font-size:22rpx;
+  font-family:PingFangHK-Medium,PingFangHK;
+  font-weight:500;
+  color:rgba(92,206,93,1);
+  line-height:30rpx;
+  letter-spacing:1rpx;
+  margin:4rpx 11rpx 3rpx 10rpx;
+}
+my-water{
+  /* position: absolute; */
+  z-index: -1;
+}
+/* 弹框 */
+.modal-mask {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background:rgba(51,51,51,1);
+  opacity:0.3457;
+  overflow: hidden;
+  z-index: 9000;
+  color: #fff;
+}
+.modal-dialog {
+  width: 523rpx;
+  height:617rpx;
+  overflow: hidden;
+  position: fixed;
+  top:307rpx;
+  left:111rpx;
+  z-index: 9999;
+  background:rgba(255,255,255,1);
+  /* margin: 300rpx 111rpx 1089rpx 115rpx; */
+  border-radius:28rpx;
+} 
+.tishiimg{
+  width:523rpx;
+  height:355rpx;
+}
+.modal-content {
+  width:460rpx;
+  height:81rpx;
+  font-size:28rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+  line-height:40rpx;
+  margin:36rpx 32rpx 39rpx 32rpx
+}
+.modal-footer {
+  display: flex;
+  flex-direction: row;
+  
+}
+.btn{
+  width:214rpx;
+  height:66rpx;
+  border-radius:33px;
+  float: left;
+}
+.btn view{
+  font-size:28rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:40rpx;
+  margin:13rpx 63rpx
+}
+.btn-cancel{
+  border:1px solid rgba(221,221,221,1);
+  margin-left:32rpx;
+}
+.btn-cancel view{
+  color:rgba(102,102,102,1);
+}
+.btn-confirm {
+  border:1px solid rgba(34,88,236,1);
+  margin-left:20rpx;
+} 
+.btn-confirm view{
+  color:rgba(34,88,236,1);
+}
+.close{
+  width: 47rpx;
+  height:47rpx;
+  position: fixed;
+  left:353rpx;
+  margin-top:85rpx
+}
+
+.training{
+  width:100%;
+  padding-top: 30rpx;
+  overflow:hidden;
+  height: 182rpx;
+}

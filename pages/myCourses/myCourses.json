@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "week":"/components/week/week"
+  },
+  "navigationBarTitleText": "我的课程"
+}

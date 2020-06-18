@@ -1,0 +1,191 @@
+/* pages/my/my.wxss */
+.top{
+  width: 750rpx;
+  height: 700rpx;
+  position: relative;
+  overflow: hidden;
+}
+.top .bg{
+  width: 100%;
+  height: 110%;
+  margin-top: -63px;
+}
+.userBox{
+  width: 100%;
+  height: 128rpx;
+  position: absolute;
+  top:177rpx;
+  left: 35rpx;
+}
+/* 头像 */
+.userBox .head{
+  width:122rpx;
+  height:122rpx;
+  border-radius: 50%;
+}
+.userBox .head image{
+  width:122rpx;
+  height:122rpx;
+  border-radius: 50%;
+}
+.userBox .user{
+  position: absolute;
+  top:0;
+  left: 151rpx;
+  height:64rpx;
+  font-size:54rpx;
+  font-family:SFProText-Medium,SFProText;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+  line-height:64rpx;
+}
+.userBox .signature{
+  position: absolute;
+  top:79rpx;
+  left: 151rpx;
+  height:42rpx;
+  font-size:30rpx;
+  font-family:PingFangSC-Medium,PingFang SC;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+  line-height:42rpx;
+}
+/* 3个功能 */
+.top .sleep{
+  width: 100%;
+  height: 108rpx;
+  position: absolute;
+  top:351rpx;
+  left: 36rpx;
+}
+.top .sleep .sleep_1{
+  width: 148rpx;
+  height: 108rpx;
+  text-align: center;
+  float: left;
+  margin-right: 103rpx;
+}
+.top .sleep .sleep_1 .num{
+  height:71rpx;
+  font-size:51rpx;
+  font-family:PingFangSC-Medium,PingFang SC;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+  line-height:71rpx;
+}
+.top .sleep .sleep_1 .text{
+  height:37rpx;
+  font-size:26rpx;
+  font-family:PingFang-SC-Regular,PingFang-SC;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  line-height:37rpx;
+}
+/* 4图标 */
+.top .ico{
+  width:750rpx;
+  height:194rpx;
+  background:rgba(255,255,255,1);
+  border-radius:30rpx 30rpx 0rpx 0rpx;
+  position: absolute;
+  left: 0;
+  top:509rpx;
+}
+.top .ico .ico_1{
+  margin-top: 41rpx;
+  width:104rpx;
+  text-align: center;
+  height:114rpx;
+  float: left;
+  margin-left: 61rpx;
+}
+.top .ico .ico_1 image{
+  width:48rpx;
+  height:48rpx;
+}
+.top .ico .ico_1 .text{
+  width:104rpx;
+  height:37rpx;
+  font-size:26rpx;
+  padding-top:22rpx;
+  font-family:SFProText-Regular,SFProText;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  line-height:31rpx;
+}
+/* 信息 */
+.body{
+  width: 100%;
+  height:605rpx;
+  background:rgba(244,245,247,1);
+  padding-top:24rpx;
+}
+.body .cont{
+  width:100%;
+  height:361rpx;
+  background:rgba(255,255,255,1);
+}
+.body .cont .cont_1{
+  width:100%;
+  height: 120rpx;
+  position: relative;
+}
+.body .cont .cont_1 image{
+  position: absolute;
+  top:44rpx;
+  left: 32rpx;
+}
+.body .cont .cont_1:nth-child(1) image{
+  width:28rpx;
+  height:34rpx;
+}
+.body .cont .cont_1:nth-child(2) image{
+  width:36rpx;
+  height:36rpx;
+}
+.body .cont .cont_1:nth-child(3) image{
+  width:38rpx;
+  height:41rpx;
+}
+.body .cont .cont_1 .text{
+  position: absolute;
+  top:36rpx;
+  left: 87rpx;
+  height:48rpx;
+  font-size:34rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(51,51,51,1);
+  line-height:48rpx;
+}
+.body .cont .cont_1 .arrow{
+  position: absolute;
+  top:49rpx;
+  left: 714rpx;
+  width:17.5rpx;
+  height:17.5rpx;
+  display: inline-block;
+  border-left: 2rpx solid #7D7D7D;
+  border-top: 2rpx solid #7D7D7D;
+  transform: rotate(135deg);
+}
+.body .cont .cont_1 .line{
+  width:721rpx;
+  height:1rpx;
+  background:#EDEDED;
+  position: absolute;
+  left: 29rpx;
+  bottom:0rpx;
+}
+.quit{
+  width:100%;
+  height: 110rpx;
+  margin-top: 24rpx;
+  text-align: center;
+  line-height: 110rpx;
+  background:rgba(255,255,255,1);
+  font-size:36rpx;
+  font-family:PingFangSC-Regular,PingFang SC;
+  font-weight:400;
+  color:rgba(255,66,66,1);
+}

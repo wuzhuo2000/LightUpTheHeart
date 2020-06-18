@@ -1,0 +1,6 @@
+.tr{
+    width: 100%;
+    overflow: hidden;
+    height:202rpx ;
+    padding-top: 30rpx;
+}

@@ -1,0 +1,84 @@
+<!--pages/my/my.wxml-->
+<view class="top">
+  <!-- top 背景图 -->
+  <image class="bg" mode="aspectFit" src="/assets/images/my/bg.png"></image>
+  <!-- 用户头像 用户名和个人签名 -->
+  <view class="userBox">
+    <!-- 用户头像 -->
+    <view class="head">
+      <image src="/assets/images/my/course.png"></image>
+    </view>
+    <!-- 用户名 -->
+    <view class="user">
+      Welcome
+    </view>
+    <!-- 签名 -->
+    <view class="signature ">
+      感受当下，遇见更好的自己
+    </view>
+  </view>
+  <!-- 3个功能 -->
+  <view class="sleep">
+    <view class="sleep_1">
+      <text class="num">1</text>
+      <view class="text">睡眠日记(次)</view>  
+    </view>
+    <view class="sleep_1">
+      <text class="num">3</text>
+      <view class="text">助眠训练(次)</view>  
+    </view>
+    <view class="sleep_1">
+      <text class="num">3</text>
+      <view class="text">咨询医生(次)</view>  
+    </view>
+  </view>
+  <!-- 4个图标 -->
+  <view class="ico">
+    <view class="ico_1">
+      <image src="/assets/images/my/health.png"></image>
+      <view class="text">健康分析</view>  
+    </view>
+    <view class="ico_1">
+      <image src="/assets/images/my/date.png"></image>
+      <view class="text">我的医生</view>  
+    </view>
+    <view class="ico_1">
+      <image src="/assets/images/my/course.png"></image>
+      <view class="text">改善课程</view>  
+    </view>
+    <view class="ico_1">
+      <image src="/assets/images/my/test.png"></image>
+      <view class="text">能力测试</view>  
+    </view>
+  </view>
+  
+</view>
+<!-- body信息 -->
+<view class="body">
+  <view class="cont">
+    <view class="cont_1">
+      <image src="/assets/images/my/facility.png"></image>
+      <view class="text">绑定设备</view>
+      <view class="arrow"></view>
+      <view class="line"></view>
+    </view>
+    <view class="cont_1">
+      <image src="/assets/images/my/date.png"></image>
+      <view class="text">修改资料</view>
+      <view class="arrow"></view>
+      <view class="line"></view>
+    </view>
+    <view class="cont_1">
+      <image src="/assets/images/my/recommend.png"></image>
+      <view class="text">推荐给朋友</view>
+      <view class="arrow"></view>
+    </view>
+  </view>
+  <!-- 退出 -->
+  <view class="quit">
+    退 出
+  </view>
+</view>
+
+
+

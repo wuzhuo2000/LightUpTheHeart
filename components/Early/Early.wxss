@@ -1,0 +1,32 @@
+.early{
+  width:100%;
+  height:200rpx;
+  border-top:1rpx solid #ededed;
+  margin-bottom:20rpx;
+  background:white;
+  display:flex;
+}
+.early image{
+  width:66rpx;
+  height:67rpx;
+  border-radius:50%;
+  margin:33rpx;
+}
+.early .item{
+  padding-top:10rpx;
+  width:125rpx;
+  display:flex;
+  flex-direction:column;
+}
+.early text{
+  font-size:28rpx;
+  text-align:center;
+  color:#666;
+  font-weight:400;
+  font-family:'苹方-港 常规体';
+}
+.early .black{
+  color:black;
+  font-weight:600;
+  font-family:'苹方-港 中粗体';
+}

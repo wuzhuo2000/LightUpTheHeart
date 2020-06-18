@@ -1,4 +1,5 @@
-// pages/clockin/clockin.js
+
+
 Page({
 
     /**
@@ -6,18 +7,18 @@ Page({
      */
     data: {
         imgList:[
-            {"title":"不赖床",img:"不赖床"},
-            {"title":"禁烟",img:"禁烟"},
-            {"title":"不在床上想事情",img:"想事情"},
-            {"title":"不强迫自己入睡",img:"强迫睡觉"},
-            {"title":"打造舒适睡眠环境",img:"舒适环境"},
-            {"title":"按时起床",img:"按时起床"},
-            {"title":"规律锻炼",img:"规律锻炼"},
-            {"title":"规律进食",img:"规律进食"},
-            {"title":"戒酒",img:"戒酒"},
-            {"title":"有困意再睡觉",img:"困意睡觉"},
-            {"title":"睡觉前少喝水",img:"少喝水"},
-            {"title":"少喝茶(咖啡)",img:"少喝茶"},
+            {"title":"不赖床",img:"laichuang"},
+            {"title":"禁烟",img:"jinyan"},
+            {"title":"不在床上想事情",img:"xiangshi"},
+            {"title":"不强迫自己入睡",img:"qiangshui"},
+            {"title":"打造舒适睡眠环境",img:"huanjing"},
+            {"title":"按时起床",img:"qichuang"},
+            {"title":"规律锻炼",img:"duanlian"},
+            {"title":"规律进食",img:"jinshi"},
+            {"title":"戒酒",img:"jiejiu"},
+            {"title":"有困意再睡觉",img:"kunyi"},
+            {"title":"睡觉前少喝水",img:"heshui"},
+            {"title":"少喝茶(咖啡)",img:"hecha"},
         ]
     },
 
@@ -25,7 +26,7 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        
     },
 
     /**

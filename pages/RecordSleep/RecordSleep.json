@@ -1,0 +1,10 @@
+{
+  "usingComponents": {
+    "my-date":"/components/my-date/my-date",
+    "my-record":"/components/my-record/my-record",
+    "my-number":"/components/my-number/my-number",
+    "my-quality":"/components/my-quality/my-quality",
+    "my-factor":"/components/my-factor/my-factor",
+    "week":"/components/week/week"
+  }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="459px" height="465px" viewBox="0 0 459 465" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.2 (67145) - http://www.bohemiancoding.com/sketch -->
+    <title>影响因素</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="229" cy="236" r="91"></circle>
+        <filter x="-10.7%" y="-10.7%" width="121.4%" height="121.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="3" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.57254902   0 0 0 0 0.690196078   0 0 0 0 1  0 0 0 0.159476902 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#7CA5FC" offset="0%"></stop>
+            <stop stop-color="#1C52F0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="记录昨晚睡眠-/笑脸" transform="translate(-146.000000, -1840.000000)">
+            <g id="影响因素" transform="translate(147.000000, 1840.000000)">
+                <g>
+                    <circle id="椭圆形" stroke-opacity="0.319859601" stroke="#3A4DEB" fill="#FFFFFF" fill-rule="nonzero" opacity="0.620791481" cx="228.5" cy="235.5" r="177.5"></circle>
+                    <circle id="椭圆形" stroke-opacity="0.319859601" stroke="#3A4DEB" stroke-width="2" opacity="0.260277158" fill-rule="nonzero" cx="228.5" cy="235.5" r="228.5"></circle>
+                    <circle id="椭圆形" stroke-opacity="0.365998641" stroke="#3A4DEB" fill-rule="nonzero" cx="228.5" cy="235.5" r="133.5"></circle>
+                    <g id="椭圆形" fill-rule="nonzero">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                    <text font-family="PingFangHK-Semibold, PingFang HK" font-size="26" font-weight="500" letter-spacing="0.9176473" fill="#1C52F0">
+                        <tspan x="175" y="281">影响因素</tspan>
+                    </text>
+                    <circle id="椭圆形-copy-2" fill="#92B0FF" fill-rule="nonzero" cx="118.5" cy="312.5" r="4.5"></circle>
+                    <circle id="椭圆形-copy-5" fill="#92B0FF" fill-rule="nonzero" cx="79.5" cy="137.5" r="4.5"></circle>
+                    <circle id="椭圆形" fill="url(#linearGradient-3)" fill-rule="nonzero" cx="152" cy="395" r="5"></circle>
+                    <circle id="椭圆形-copy-7" fill="url(#linearGradient-3)" fill-rule="nonzero" cx="358" cy="255" r="5"></circle>
+                    <circle id="椭圆形-copy-8" fill="url(#linearGradient-3)" fill-rule="nonzero" cx="242" cy="5" r="5"></circle>
+                    <g id="gongshuaiyinsu" transform="translate(202.000000, 181.000000)" fill="#1C52F0" fill-rule="nonzero">
+                        <path d="M26.8794643,0.03375 C12.0680357,0.03375 0.03375,12.0680357 0.03375,26.8794643 C0.03375,41.6908929 12.0680357,53.7251786 26.8794643,53.7251786 C41.6908929,53.7251786 53.7251786,41.6908929 53.7251786,26.8794643 C53.7251786,12.0680357 41.6908929,0.03375 26.8794643,0.03375 Z M42.15375,33.8223214 C42.1228929,33.8223214 42.1228929,33.8223214 42.15375,33.8223214 L35.8280357,33.8223214 C35.2726071,33.8223214 34.7788929,33.4211786 34.6863214,32.86575 L33.5754643,26.2006071 L29.40975,40.6726071 C29.2554643,41.1663214 28.8234643,41.50575 28.2988929,41.50575 L28.2680357,41.50575 C27.7434643,41.4748929 27.2806071,41.1046071 27.1880357,40.5800357 L22.3434643,18.0234643 L19.2886071,31.0143214 C19.1651786,31.5388929 18.7023214,31.9091786 18.1468929,31.9091786 L11.6051786,31.9091786 C11.0188929,31.9091786 10.5251786,31.4154643 10.5251786,30.8291786 C10.5251786,30.2428929 11.0188929,29.7491786 11.6051786,29.7491786 L17.3754643,29.7491786 L21.2634643,13.1788929 C21.3868929,12.6543214 21.84975,12.2840357 22.4051786,12.2840357 C22.9606071,12.2840357 23.4234643,12.6543214 23.5160357,13.20975 L28.3914643,36.2291786 L32.64975,21.3560357 C32.8040357,20.8314643 33.2668929,20.4920357 33.8223214,20.5228929 C34.37775,20.55375 34.80975,20.9548929 34.9023214,21.4794643 L36.6303214,31.6623214 L42.1228929,31.6623214 C42.7091786,31.6623214 43.2028929,32.1560357 43.2028929,32.7423214 C43.23375,33.3286071 42.7400357,33.8223214 42.15375,33.8223214 Z" id="形状"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

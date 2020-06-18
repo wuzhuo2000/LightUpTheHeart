@@ -1,0 +1,71 @@
+<week></week>
+<view class="mycon">
+  <view class="fl">{{date}}</view>
+  <view class="fr"><text>10</text>项待记录</view>
+</view>
+<title>
+  <text slot="title">今天过的好吗？</text>
+</title>
+<day_con></day_con>
+<title>
+  <text slot="title">精力是否充沛？</text>
+</title>
+<day_con></day_con>
+<title>
+  <text slot="title">日间行为</text>
+</title>
+<view class="day_con">
+  <view class="null_con" wx:if="{{lock}}">
+   <image class="null" src="../../assets/images/daytime/null.png"></image>
+   <view>赶紧<text bindtap="back">记录一下日间行为</text>吧！</view>
+  </view>
+  <view class="zzw" wx:else>
+    <view class="day" wx:for="{{sz}}" wx:key="index" bindtap="back">
+      <image class="tubiao" src="{{item.src}}"></image>
+      <text class="shih">{{item.zzw}}</text>
+      <view class="yfd">
+        <text class="contn">{{item.con}}</text>
+        <image class="jiantou" src="../../assets/images/daytime/jiantou.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<title>
+  <text slot="title">休憩时间</text>
+</title>
+<view class="time_con">
+  <view class="time_conent" wx:for="{{arry}}" wx:key="index">
+    <view class="time_con_time">
+      <view class="xs">
+        <image src="../../assets/images/daytime/rushui.png"></image>
+        <text>小睡</text>
+      </view>
+      <image class="fi" src="../../assets/images/daytime/jiantou.png"></image>
+      <text class="time_t">{{item.time}}</text>
+    </view>
+    <view class="time_con_fz">
+      <view class="zsc">
+        <image src="../../assets/images/daytime/naozhong.png"></image>
+        <text class="txtt">总时长(分钟)</text>
+        <view class="btns">
+          <view class="btn1" bindtap="subtract" data-index="{{index}}">-</view>
+            <text class="num">{{item.fz}}</text>
+          <view class="btn1" bindtap="add" data-index="{{index}}">+</view>
+        </view>
+      </view>
+    </view>
+    <view class="delete">
+      <view class="item_del" bindtap="del" data-index="{{index}}">
+        <image src="../../assets/images/daytime/delete.png"></image>
+        <text>删除</text>
+      </view>
+    </view>
+  </view>
+  <view class="add_time">
+    <view class="item_time" bindtap="addTime">
+      <image src="../../assets/images/daytime/add.png"></image>
+      <text>添加休憩时间</text>
+    </view>
+  </view>
+  <btn><text slot="con">保存</text></btn>
+</view>

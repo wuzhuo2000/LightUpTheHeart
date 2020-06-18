@@ -1,0 +1,16 @@
+<OneEarly>
+  <image src="../../assets/images/daytime/morning.png" slot="img"></image>
+  <text slot="title">早上</text>
+</OneEarly>
+<Early></Early>
+<OneEarly>
+  <image src="../../assets/images/daytime/nooning.png" slot="img"></image>
+  <text slot="title">中午</text>
+</OneEarly>
+<Early></Early>
+<OneEarly>
+  <image src="../../assets/images/daytime/evening.png" slot="img"></image>
+  <text slot="title">晚上</text>
+</OneEarly>
+<Early></Early>
+<btn><text slot="con">保存</text></btn>

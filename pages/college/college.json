@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "my-water":"/components/my-water/my-water",
+    "van-circle": "@vant/weapp/circle/index",
+    "training-cont":"/components/training-cont/training-cont",
+    "mission-cont":"/components/mission-cont/mission-cont"
+  }
+}

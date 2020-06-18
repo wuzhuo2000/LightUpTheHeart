@@ -1,0 +1,204 @@
+.mycon{
+  width:100%;
+  height:112rpx;
+  box-shadow:#ededed 0rpx 5rpx 5rpx;
+  background:white;
+  margin-bottom:10rpx;
+  letter-spacing:1px;
+}
+.mycon .fl{
+  float:left;
+  line-height:112rpx;
+  margin-left:35rpx;
+  font-size:26rpx;
+}
+page{
+  font-family:'苹方-港 常规体';
+}
+.mycon .fr{
+  float:right;
+  line-height:110rpx;
+  color:gray;
+  margin-right:30rpx;
+  font-size:22rpx;
+}
+.mycon .fr text{
+  color:#ff9595;
+}
+.btn{
+  width:100%;
+  height:96rpx;
+  background:#4052e7;
+  font-size:36rpx;
+  color:white;
+  text-align:center;
+  line-height:96rpx;
+}
+page {
+  background-color: #f4f5f7;
+  position:relative;
+}
+.time_con{
+  width:100%;
+  border-top:1rpx solid #ededed;
+  background:white;
+  padding-bottom:96rpx;
+}
+.day_con{
+  width:100%;
+  background:white;
+  border-top:1rpx solid #ededed;
+  margin-bottom:20rpx;
+}
+.delete text{
+  letter-spacing:1px;
+}
+.add_time text{
+  letter-spacing:1px;
+}
+.time_con .time_conent{
+  width:694rpx;
+  height:312rpx;
+  margin:32rpx 28rpx;
+  border-radius:10rpx;
+  box-shadow:#ededed 0rpx 0rpx 12rpx;
+  position:relative;
+}
+.null_con .null{
+  width:318rpx;
+  height:244rpx;
+  margin:63rpx 216rpx 0rpx;
+}
+.null_con view{
+  font-size:30rpx;
+  color:#666;
+  text-align:center;
+  padding-top:16rpx;
+  padding-bottom:54rpx;
+  font-family:'苹方-港 常规体';
+}
+.null_con view text{
+  color:#6371e8;
+}
+.btn1{
+  width:40rpx;
+  height:40rpx;
+  border-radius:50%;
+  background:white;
+  border:3rpx solid #d2d2d2;
+  color:#d2d2d2;
+  display:inline-block;
+  text-align:center;
+  line-height:40rpx;
+  margin-top:30rpx;
+  margin-right:15rpx;
+}
+.time_con .time_con_fz .zsc .num{
+  color:#b4a9a9;
+  margin-right:15rpx;
+}
+.btns{
+  float:right;
+  line-height:95rpx;
+  margin-right:11rpx;
+}
+.time_conent .time_con_time,.time_conent .time_con_fz{
+  height:35%;
+  width:100%;
+}
+.time_conent .time_con_time image,.time_conent .time_con_fz image{
+  width:42rpx;
+  height:40rpx;
+  margin:38rpx 0rpx 0rpx 38rpx;
+}
+.time_conent .delete{
+  width:100%;
+  height:30%;
+  color:#ff6565;
+  border-top:1rpx solid #ededed;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+.time_con_time .xs text,.time_con_fz .zsc .txtt{
+  font-size:32rpx;
+  margin-left:15rpx;
+  position:relative;
+  bottom:10rpx;
+  letter-spacing:1px;
+}
+.time_conent .delete image{
+  width:32rpx;
+  height:32rpx;
+}
+.item_del text{
+  margin-left:14rpx;
+}
+.xs{
+  display:inline-block;
+}
+.time_t{
+  float:right;
+  color:#7f9ef7;
+  line-height:100rpx;
+}
+.time_con .time_conent .time_con_time .fi{
+  float:right;
+  width:15rpx;
+  height:27rpx;
+  margin-right:26rpx;
+  margin-left:11rpx;
+}
+.add_time{
+  width:100%;
+  height:124rpx;
+  color:#678bf5;
+  font-size:28rpx;
+  display:flex;
+  justify-content: center;
+  letter-spacing:1px;
+}
+.add_time image{
+  width:36rpx;
+  height:36rpx;
+}
+.add_time text{
+  position:relative;
+  bottom:10rpx;
+  left:10rpx;
+  letter-spacing:1px;
+}
+.tubiao{
+  width:38rpx;
+  height:38rpx;
+  margin:40rpx 10rpx 0rpx 30rpx;
+}
+.shih{
+  font-size:32rpx;
+  color:#666;
+  line-height:118rpx;
+  position:relative;
+  bottom:5rpx;
+  letter-spacing:1px;
+}
+.yfd{
+  float:right;
+}
+.yfd image,.yfd text.contn{
+  float:left;
+}
+.jiantou{
+  width:15rpx;
+  height:27rpx;
+  margin:45rpx 26rpx 0rpx 11rpx;
+}
+.contn{
+  font-size:32rpx;
+  color:#333;
+  line-height:110rpx;
+  letter-spacing:1px;
+}
+.day{
+  height:118rpx;
+  width:100%;
+}

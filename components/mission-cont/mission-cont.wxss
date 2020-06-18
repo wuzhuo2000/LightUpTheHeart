@@ -1,0 +1,36 @@
+/* components/mission-cont/mission-cont.wxss */
+.box{
+  width: 338rpx;
+  height:379rpx;
+  background: #FFFFFF;
+  box-shadow: 0 0 8rpx 5rpx rgba(213,210,210,0.50);
+  border-radius: 11rpx;
+}
+.img{
+  width: 338rpx;
+  height:225rpx;
+}
+.title{
+  /* width: 282rpx;
+  height:42rpx; */
+  line-height:42rpx;
+  font-family:PingFangHK-Regular,PingFangHK;
+  font-weight:400;
+  font-size: 30rpx;
+  color:rgba(51,51,51,1);
+  letter-spacing: 1rpx;
+  margin-top:21rpx;
+  margin-left:22rpx
+}
+.con{
+  /* width:302rpx;
+  height:61rpx; */
+  line-height:30rpx;
+  font-family:PingFangHK-Regular,PingFangHK;
+  font-weight:400;
+  color:rgba(153,153,153,1);
+  font-size: 22rpx;
+  letter-spacing: 1rpx;
+  margin-left:22rpx;
+  margin-top:9rpx;
+}

@@ -4,8 +4,8 @@
         <text class="title">坚持打卡</text>
         <view class="day">
             <view class="item {{index<=0 ? 'active' : ''}}" wx:for="{{7}}" wx:key="item">
-                <image wx:if="{{index<=0}}" src="/assets/images/clockin/对号.png"></image>
-                <image wx:else src="/assets/images/clockin/对号1.png"></image>
+                <image wx:if="{{index<=0}}" src="/assets/images/clockin/yes.png"></image>
+                <image wx:else src="/assets/images/clockin/yes1.png"></image>
                 <text>第{{index+1}}天</text>
             </view>
         </view>
@@ -21,7 +21,7 @@
             <swiper-item wx:for="{{imgList}}" wx:key="item" bindtap="changeClick" data-index="{{index}}">
                 <view class="itembox {{clickIndex == index ?'active' : ''}} ">
                     <view class="img">
-                        <image src="/assets/images/clockin/{{item.img}}@2x.png" style="height:116rpx;width:116rpx"></image>
+                        <image src="/assets/images/clockin/{{item.img}}.png" style="height:116rpx;width:116rpx"></image>
                     </view>
                     <text class="title">{{item.title}}</text>
                     <text class="days">打卡1天</text>

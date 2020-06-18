@@ -1,0 +1,50 @@
+<view class="courses">
+  <view class="video">
+    <video id="myVideo" controls="{{false}}" show-center-play-btn="{{false}}" bindended="end" style="height:607rpx;width:750rpx;" src="{{video}}" bindtap="play" bindtimeupdate="bc"></video>
+    <image src="../../assets/images/daytime/bf.png" class="bf" hidden="{{!state}}" bindtap="play"></image>
+    <view class="bf_time">
+      <text class="bf_time_left">{{currentTime}}</text>
+      <text class="bf_time_right">{{duration}}</text>
+    </view>
+    <view class="jdt" bindtouchmove="touch">
+      <view class="bj"></view>
+      <view class="jd" style="width:{{jd}}"><view class="jd_yd"></view></view>
+    </view>
+  </view>
+  <view class="tit">睡眠卫生指南14条，条条帮助你</view>
+  <title>
+    <text slot="title">课程介绍</text>
+  </title>
+  <view class="description">
+    改善睡眠状况，帮助返现自身睡眠问题
+  </view>
+  <title>
+    <text slot="title">使用说明</text>
+  </title>
+  <view class="content">
+    <view class="txt">
+      <view class="xyd"></view>不需要追求8小时睡眠，只要白天精力充沛，能正常生活工作，那就可以了。
+    </view>
+    <image class="ximg" src="../../assets/images/daytime/c1.png"></image>
+    <view class="txt">
+      <view class="xyd"></view>每天同一时刻起床，一周7天全是如此。
+    </view>
+    <view class="txt">
+      <view class="xyd"></view>规律锻炼，运动能直接改善深睡眠，也能让人放松，日间有规律的运动可以让人们在夜晚更容易疲劳，能更快入睡，但是要注意，睡前2小时不要运动哦！
+    </view>
+    <image class="ximg" src="../../assets/images/daytime/c2.png"></image>
+    <view class="txt">
+      <view class="xyd"></view>确保我市舒适丶温度适宜，且不受光线和声音的干扰。
+    </view>
+    <view class="txt">
+      <view class="xyd"></view>睡前不吸烟喝酒丶减少咖啡因摄入，规律饮食，不饿着丶夜间避免过度饮用饮料。
+    </view>
+    <view class="txt">
+      <view class="xyd"></view>不试图入睡，除了睡觉和性生活，不要再床上做其他事情；白天保持清醒，避免打盹。
+    </view>
+    <view class="txt">
+      <view class="xyd"></view>把闹钟放在床下或者转移它，不要看到他
+    </view>
+  </view>
+  <view class="wanc">完成任务</view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "btn":"/components/btn/btn"
+  },
+  "navigationBarTitleText":"添加休憩时间"
+}

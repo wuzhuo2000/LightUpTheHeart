@@ -1,0 +1,217 @@
+<!--学院-->
+<!-- <view class="nav"></view> -->
+  <!-- 轮播 -->
+  <view class="swiper-wrapper">
+    <swiper 
+      circular autoplay
+      interval="2000"
+      current="{{currentIndex}}"
+      previous-margin="60rpx"
+      next-margin="60rpx"
+      bindchange="swiperChange"
+    >
+      <block wx:for="{{lunbo}}" wx:key="*this">
+        <swiper-item>
+          <view class="swiper-item {{index==currentIndex?'swiper-item-active':''}}">
+            <image class="" src="{{item.image_src}}" mode="scaleToFill" />
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class="dots">
+      <block wx:for="{{lunbo}}" wx:key="*this">
+        <view class="dot{{currentIndex == index ? ' active' : ''}}"></view>
+      </block>
+    </view>
+    
+  </view>
+ 
+  <view class="kong" style="margin-top:54rpx"></view>
+
+  <!-- 今日睡眠 -->
+<!-- 记录昨晚睡眠 -->
+  <!-- <view class="sleep">
+    <view class="sleep_top">
+      <text class="title">今日睡眠</text>
+      <view class="riji">
+        <view>请填写您昨晚睡眠日记</view>
+      </view>
+      
+      <navigator url="/pages/mine/mine.wxml">
+        <text class="jilu">更多记录</text>
+        <image src="/assets/images/college/fanhui-4.png" class="gengduo"></image>
+      </navigator>
+      
+    </view>
+
+    <view class="water" >
+      <my-water size="0" />
+      <view class="data">
+        <text class="size">0</text><text class="cent">%</text>
+      </view>
+      <view class="record">尚未记录</view>
+    </view>
+    <navigator class="quality" url="">
+      <view>记录昨晚睡眠</view>
+    </navigator>
+    <view class="gist">您所记录的睡眠信息是医生为您提供资讯的依据</view>
+    <view class="kong" style="margin-top:36rpx"></view>
+  </view> -->
+
+
+
+<!-- 修改睡眠记录 -->
+  <!-- <view class="sleep">
+    <view class="sleep_top">
+      <text class="title">今日睡眠</text>
+      <navigator>
+        <text class="jilu" style="left:593rpx">更多记录</text>
+        <image src="/assets/images/college/fanhui-4.png" class="gengduo"></image>
+      </navigator>
+      
+    </view>
+
+    <view class="water">
+        <my-water size="{{data}}" />
+        <view class="data">
+          <text class="size">{{data}}</text><text class="cent">%</text>
+        </view>
+        <view class="record">睡眠效率</view>
+      </view>
+      <view class="time">
+        <view class="timet">
+          <image src="/assets/images/college/shuijue.png" class="shuijueimg"></image>
+          <text class="Bedtime">上床时间:{{time}}</text>
+          <text class="fenge">|</text>
+          <image src="/assets/images/college/分组 17.png" class="qiimg"></image>
+          <text class="Uptime">起床时间:{{time}}</text>
+        </view>
+      </view>
+      <navigator class="quality" style="margin-top:20rpx" url=''>
+        <view>修改睡眠记录</view>
+      </navigator>
+      <view class="gist">您所记录的睡眠信息是医生为您提供资讯的依据</view>
+      <view class="kong" style="margin-top:33rpx"></view>
+  </view> -->
+
+<!-- 记录白天行为 -->
+
+  <view class="sleep">
+    <view class="sleep_top">
+      <text class="title" catchtap='showDialogBtn'>今日睡眠</text>
+      <view class="riji">
+        <view>请填写您昨晚睡眠日记</view>
+      </view>
+      <navigator>
+        <text class="jilu">更多记录</text>
+        <image src="/assets/images/college/fanhui-4.png" class="gengduo"></image>
+      </navigator>
+      
+    </view>
+
+    <view class="water" >
+        <my-water size="{{data}}" />
+        <view class="data">
+          <text class="size">{{data}}</text><text class="cent">%</text>
+        </view>
+        <view class="record">睡眠效率</view>
+      </view>
+      <view class="time">
+        <view class="timet">
+          <image src="/assets/images/college/shuijue.png" class="shuijueimg" style="border:0"></image>
+          <text class="Bedtime">上床时间:{{time}}</text>
+          <text class="fenge">|</text>
+          <image src="/assets/images/college/分组 17.png" class="qiimg" style="border:0"></image>
+          <text class="Uptime">起床时间:{{time}}</text>
+        </view>
+      </view>
+      <navigator class="quality" style="margin-top:20rpx" url="/pages/dayTime/dayTime">
+        <view>记录白天行为</view>
+      </navigator>
+      <view class="gist">您所记录的睡眠信息是医生为您提供资讯的依据</view>
+      <view class="kong" style="margin-top:33rpx"></view>
+  </view>
+
+
+  <!-- 今日任务 -->
+  <view class="task">
+    <view>
+      <text class="con_left">今日任务</text>
+      <navigator url="/pages/myCourses/myCourses">
+        <text class="con_right">详细课程表</text>
+        <image src="/assets/images/college/fanhui-4.png" class="symbol"></image>
+      </navigator>
+    </view>
+    <view style="margin-top:70rpx">
+      <mission-cont title="正按时起床才是王道" con="失眠症患者呆在床上的时间越长，睡眠质量越差。" img="/assets/images/college/Bitmap(1).png"  class="mission-cont1"/>
+      <mission-cont title="选择卫生习惯" con="改掉不想习惯，还您良好睡 眠。" img="/assets/images/college/Bitmap.png" class="mission-cont1"/>
+    </view>
+    
+</view>
+
+<view class="kong" style="clear:both;"></view>
+
+  <!-- 助眠训练 -->
+  <view class="task">
+    <text class="con_left" style="top:32rpx">助眠训练</text>
+    <navigator url="/pages/SelectDefaultTraining/SelectDefaultTraining">
+      <text class="con_right" style="left:640rpx;top:38rpx">更多</text>
+      <image src="/assets/images/college/fanhui-4.png" class="symbol" style="top:44rpx"></image>
+    </navigator>
+    <view style="margin-top:70rpx" class="training">
+      <training-cont title="身体扫描" cont="关注您身体的每一个部位，缓解躯体不适" id="123" img="/assets/images/college/身体扫描.png"  />
+    </view>
+  </view>
+  
+  <view class="kong" style="clear:both;margin-top:44rpx"></view>
+
+  <!-- 测评问答 -->
+  <!-- 记录昨晚睡眠 -->
+  <!-- <view class="task">
+      <text class="con_left">测试问卷</text>
+      <navigator url="/pages/mine/mine.wxml">
+        <text class="con_right" style="left:592rpx;">报告分析</text>
+        <image src="/assets/images/college/fanhui-4.png" class="symbol"></image>
+      </navigator>
+      <navigator url="">
+        <image src="/assets/images/college/002 copy 2.png" class="questionnaire"></image>
+      </navigator>
+  </view> -->
+
+
+  <!-- 记录白天睡眠 -->
+  <view class="task">
+      <text class="con_left" style='top:32rpx'>测试问卷</text>
+      <view class="accomplish">
+        <view>已完成</view>
+      </view>
+      <navigator url="">
+        <text class="con_right" style="left:586rpx;top:38rpx">报告分析</text>
+        <image src="/assets/images/college/fanhui-4.png" class="symbol" style="top:44rpx"></image>
+      </navigator>
+      
+      <navigator url="">
+        <image src="/assets/images/college/002 copy 2.png" class="questionnaire" style="border:1px dashed #888;"></image>
+      </navigator>
+  </view>
+ 
+
+
+<!--弹窗-->
+<view class="modal-mask" bindtap="hideModal" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<view class="modal-dialog" wx:if="{{showModal}}"> 
+  <image src="/assets/images/college/组 2(1).png" class="tishiimg"></image>
+  <view class="modal-content">
+   {{name}}您好，请您务必今日完成失眠 改善：毕业随访量表
+  </view>
+  <view class="modal-footer">
+    <view class="btn btn-cancel" bindtap="hideModal" data-status="cancel">
+      <view>下次吧</view>
+    </view>
+    <view class="btn btn-confirm" bindtap="onConfirm" data-status="confirm">
+    <view>马上去</view>
+    <image src="/assets/images/college/关闭_ 2.png" class="close" bindtap="hideModal"></image>
+    </view>
+    
+  </view>
+</view> 

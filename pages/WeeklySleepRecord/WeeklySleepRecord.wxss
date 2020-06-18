@@ -97,12 +97,18 @@ view,text{
     width: 40rpx;
     height: 34rpx;
 }
+.box .cont .sun image{
+    height: 37.9rpx;
+    width: 37.9rpx;
+    position: relative;
+    top: 10rpx;
+}
 .box .cont .littitle{
     font-size: 30rpx;
     color: #333333;
     line-height: 45rpx;
     letter-spacing: 0rpx;
-    padding-left: 15rpx;
+    padding-left: 15rpx; 
 }
 .box .cont .moon .butian{
     width:124rpx;

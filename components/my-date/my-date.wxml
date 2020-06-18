@@ -1,0 +1,3 @@
+ <picker mode="date"><view class="data-month">{{dateYear}}
+<text wx:if="{{!date.dates}}" style='padding-right:30rpx;' class="zan-cell__ft" bindtap='showDate'>{{dateList[0].dates + '\t' + dateList[0].week }}</text>
+ <text class="rightF"><text class="redC">10</text>项待记录</text></view></picker>

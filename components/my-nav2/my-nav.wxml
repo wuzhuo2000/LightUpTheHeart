@@ -1,0 +1,22 @@
+<view class="halfPage">
+    <!-- <image mode="widthFix" src="{{bg}}" class="image"/> -->
+    <view>
+        <video src="https://blz-videos.nosdn.127.net/1/OverWatch/AnimatedShots/Overwatch_AnimatedShot_Soldier76_Hero.mp4" binderror="videoErrorCallback" class="image"></video>
+    </view>
+    <view  wx:if="{{isshowbackbtn}}"  class="arrow" bindtap="goback" style="  border-color:  {{backbtncolor}};" ></view>
+    <view class="home">
+        <view class="title">身体扫描</view>
+        <view class="blue-icon"></view>
+        <view class="con">课程介绍</view>
+        <view class="con-content">关注您身体的每一个部位，缓解躯体不适。</view>
+        <view class="blue-iconr"></view>
+        <view class="sysm">使用说明</view>
+        <view class="gr gr1"></view>
+        <view class="exp exp1">与让思想与身体连接</view>
+        <view class="gr gr2"></view>
+        <view class="exp exp2">关注您身体的每一个部位，缓解躯体不适。</view>
+        <view class="gr gr3"></view>
+        <view class="exp exp3">身体扫描是一个基本的躺卧式冥想练习，可 以自己在家每天练习。身体扫描引导我们去 直接的、系统的一次关注身体的每一个部位， 它鼓励我们在当下的时刻与身体建立一种更 加好奇的、亲密的和友好的联结。</view>
+        <view class="con-from">内容取自于《穿越抑郁的正念之道》，原之 道语由卡巴金博士录制，童慧琦博士翻译转 录并授权。</view>
+    </view>
+</view>

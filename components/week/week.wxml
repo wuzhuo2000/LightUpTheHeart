@@ -1,0 +1,8 @@
+<view class="week">
+  <view class="week_con">
+    <text wx:for="{{week}}" wx:key="index">{{item}}</text>
+  </view>
+  <view class="week_con1">
+    <view wx:for="{{rq}}" wx:key="index"><text class="{{index1==index?'blue':''}}">{{item}}</text></view>
+  </view>
+</view>

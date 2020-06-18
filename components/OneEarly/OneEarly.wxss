@@ -1,0 +1,24 @@
+.OneEarly{
+  width:100%;
+  height:107rpx;
+  border-top:1rpx solid #ededed;
+  background:white;
+}
+page {
+  background-color: #f4f5f7;
+}
+.OneEarly text{
+  font-size:32rpx;
+  float:left;
+  line-height:107rpx;
+  margin-left:-20rpx;
+  letter-spacing:1px;
+  font-weight:600;
+  font-family:'苹方-港 中粗体';
+}
+.OneEarly image{
+  width:40rpx;
+  height:40rpx;
+  margin:32rpx;
+  float:left;
+}

@@ -1,0 +1,15 @@
+<!--components/my-f1/my-f1.wxml-->
+<view class="content">
+  <text class="weightText"></text><text class="weightText1">睡眠影响因素</text><text class="weightText2">(若没有请忽略此项)</text>
+</view>
+<view class="content1">
+  <image src="/assets/images/sleepimg/yxys.svg" class="yxys"></image> 
+  <text class="textpos_a texts">光亮</text>
+  <text class="textpos_b texts">不适</text>
+  <text class="textpos_c texts">压力</text>
+  <text class="textpos_d texts">床伴</text>
+  <text class="textpos_e texts">饱餐</text>
+  <text class="textpos_f texts">认床</text>
+  <text class="textpos_g texts">温度</text>
+  <text class="textpos_h texts">噪音</text>
+</view>
