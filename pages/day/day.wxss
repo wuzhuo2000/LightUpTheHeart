@@ -27,10 +27,11 @@ page{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 69rpx;
+  /* margin-left: 69rpx; */
   font-size: 36rpx;
   font-weight:500;
   padding-top: 28rpx;
+  margin: 0 27rpx;
 
 }
 .tab-right{
@@ -51,6 +52,7 @@ page{
   background-color: #fff;
   margin-bottom: 22rpx;
   position: relative;
+  overflow: hidden;
 }
 .efficiency .date .icon-left{
   width: 15rpx;
@@ -211,35 +213,22 @@ page{
 /* 起床时间分析 */
 .analyze{
   width: 100%;
-  height: 1500rpx;
-  /* background-color: #fff; */
-  background-color: red;
+  height: 623rpx;
+  background-color: #fff;
   margin-bottom: 22rpx;
   position: relative;
+  /* background-color: red; */
 }
 .analyze .sleep-text>text{
   color: #666666;
   font-size:27rpx;
   font-weight:400;
 }
-/* ec-canvas{
+.ec{
   width: 100%;
   height: 470rpx;
-} */
-.contit{
-  width: 100%;
-  height: 470rpx;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    box-sizing: border-box;
+  padding-left: 30rpx;
+  /* background-color: #fff; */
 }
 /* 补全日期日记 */
 .time{

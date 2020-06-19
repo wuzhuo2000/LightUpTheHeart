@@ -50,7 +50,7 @@
                 "selectedIconPath": "/assets/images/tabbar2/home-active.png"
             },
             {
-                "pagePath": "pages/test/test",
+                "pagePath": "pages/day/day",
                 "text": "睡眠分析",
                 "iconPath": "/assets/images/tabbar2/fenxi.png",
                 "selectedIconPath": "/assets/images/tabbar2/fenxi-active.png"

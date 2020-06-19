@@ -4,5 +4,6 @@
     "van-circle": "@vant/weapp/circle/index",
     "training-cont":"/components/training-cont/training-cont",
     "mission-cont":"/components/mission-cont/mission-cont"
-  }
+  },
+  "navigationBarTitleText": "学院"
 }

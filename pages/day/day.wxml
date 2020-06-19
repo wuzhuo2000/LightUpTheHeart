@@ -10,9 +10,9 @@
       <!-- 睡眠效率 -->
       <view class="efficiency">
         <view class="date">
-          <image src="../../assets/images/sleep statistics/返回左@3x.png" class="icon-left"></image>
+          <image src="../../assets/images/sleep statistics/fanhuizuo.png" class="icon-left"></image>
           <view class="date-text">2020年06月14日</view>
-          <image src="../../assets/images/sleep statistics/返回右@3x.png" class="icon-right"></image>
+          <image src="../../assets/images/sleep statistics/fanhuiyou.png" class="icon-right"></image>
         </view>
         <view class="water" >
          <my-water size="25"/>
@@ -20,12 +20,11 @@
         </view>
       </view>
       <!-- 睡眠统计 -->
-<ec-shichang />
       <view class="statistics">
         <view class="sleep-text"><view></view>睡眠统计</view>
           <view class="content">
             <view>
-              <image src="../../assets/images/sleep statistics/分组 3@3x.png" style="width: 67rpx;height: 53rpx;"></image>
+              <image src="../../assets/images/sleep statistics/chuang.png" style="width: 67rpx;height: 53rpx;"></image>
               <view class="content-title">
                 <view class="content-time">22:00</view>
                 <view class="content-text">上床时间</view>
@@ -39,28 +38,28 @@
               </view>
             </view>
             <view>
-              <image src="../../assets/images/sleep statistics/分组@3x(5).png" style="width: 56rpx;height: 60rpx;"></image>
+              <image src="../../assets/images/sleep statistics/biao.png" style="width: 56rpx;height: 60rpx;"></image>
               <view class="content-title">
                 <view class="content-time">7h10min</view>
                 <view class="content-text">睡眠时长</view>
               </view>
             </view>
             <view>
-              <image src="../../assets/images/sleep statistics/效率@3x.png" style="width: 59rpx;height: 60rpx;"></image>
+              <image src="../../assets/images/sleep statistics/xiaolv.png" style="width: 59rpx;height: 60rpx;"></image>
               <view class="content-title">
                 <view class="content-time">91%</view>
                 <view class="content-text">效率</view>
               </view>
             </view>
             <view>
-              <image src="../../assets/images/sleep statistics/入睡@3x.png" style="width: 62rpx;height: 55rpx;"></image>
+              <image src="../../assets/images/sleep statistics/rushui.png" style="width: 62rpx;height: 55rpx;"></image>
               <view class="content-title">
                 <view class="content-time">30min</view>
                 <view class="content-text">入睡</view>
               </view>
             </view>
             <view>
-             <image src="../../assets/images/sleep statistics/夜醒@3x.png" style="width: 51rpx;height: 55rpx;"></image>
+             <image src="../../assets/images/sleep statistics/yexing.png" style="width: 51rpx;height: 55rpx;"></image>
               <view class="content-title">
                 <view class="content-time">15min</view>
                 <view class="content-text">夜醒</view>
@@ -83,53 +82,67 @@
       <!-- 睡眠效率 -->
       <view class="efficiency" style="height:654.99rpx">
         <view class="date">
-          <image src="../../assets/images/sleep statistics/返回左@3x.png" class="icon-left"></image>
+          <image src="../../assets/images/sleep statistics/fanhuizuo.png" class="icon-left"></image>
           <view class="date-left">2020年06月14日至20日</view>
-          <image src="../../assets/images/sleep statistics/返回右@3x.png" class="icon-right"></image>
+          <image src="../../assets/images/sleep statistics/fanhuiyou.png" class="icon-right"></image>
         </view>
         <view class="water" >
          <my-water size="25"/>
         </view>
         <view class="efficiency-title">
           <view class="fall rule">
-            <image src="../../assets/images/sleep statistics/入睡@3x(1).png" class="fall-icon"></image>
+            <image src="../../assets/images/sleep statistics/rushui.png" class="fall-icon"></image>
             <text class="speed">入睡速度：</text>
             <text class="fall-time">20min</text>
             <text class="fall-text">(很好)</text>
           </view>
           <view class="fall" style="padding-left:22rpx">
-            <image src="../../assets/images/sleep statistics/夜醒@3x(1).png" class="fall-icon" style="width:27rpx;height:29rpx"></image>
+            <image src="../../assets/images/sleep statistics/yexing.png" class="fall-icon" style="width:27rpx;height:29rpx"></image>
             <text class="speed">夜间醒来：</text>
             <text class="fall-time">11min</text>
             <text class="fall-text">(正常)</text>
           </view>
         </view>
       </view>
-
-
-        <ec-shichang  style="height:1000rpx;width:750rpx;"/>
-      <!-- 起床时间分析 -->
-      <view class="analyze">
-        <view class="sleep-text"><view></view>起床时间分析<text>（07:01）</text></view>
-        <!-- <view class="container">
-          <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
-        </view> -->
-        
+      <!-- 睡眠时长 -->
+       <view class="analyze" wx:if="{{tabArr.curBdIndex==2}}">
+        <view class="sleep-text"><view></view>睡眠时长<text>（7.2h/天）</text></view>
+        <view class="ec">
+          <ec-duration />
+        </view>
       </view>
+
+      <!-- 入睡时间分析 -->
+       <view class="analyze" wx:if="{{tabArr.curBdIndex==2}}">
+        <view class="sleep-text"><view></view>入睡时间分析<text>（22:44）</text></view>
+        <view class="ec">
+          <ec-out />
+        </view>
+      </view>
+
+      <!-- 起床时间分析 -->
+      <view class="analyze" wx:if="{{tabArr.curBdIndex==2}}">
+        <view class="sleep-text"><view></view>起床时间分析<text>（07:01）</text></view>
+        <view class="ec">
+          <ec-get />
+        </view>
+      </view>
+        
+
       
       <!-- 补全日期日记 -->
       <view class="time">
         <view class="sleep-text"><view></view>补全日期日记</view>
         <view class="content">
           <view>
-            <image src="../../assets/images/sleep statistics/日历.png" style="width: 51rpx;height: 47rpx;" class="content-icon"></image>
+            <image src="../../assets/images/sleep statistics/rili.png" style="width: 51rpx;height: 47rpx;" class="content-icon"></image>
             <view class="content-title">
               <view class="content-time">2020/06/17</view>
               <view class="content-write">去填写 <image src="../../assets/images/sleep statistics/fanhui-4 copy@3x.png" class="content-write-img"></image></view>
             </view>
           </view>
           <view>
-            <image src="../../assets/images/sleep statistics/日历.png" style="width: 51rpx;height: 47rpx;" class="content-icon"></image>
+            <image src="../../assets/images/sleep statistics/rili.png" style="width: 51rpx;height: 47rpx;" class="content-icon"></image>
             <view class="content-title">
               <view class="content-time">2020/06/17</view>
               <view class="content-write">去填写 <image src="../../assets/images/sleep statistics/fanhui-4 copy@3x.png" class="content-write-img"></image></view>
