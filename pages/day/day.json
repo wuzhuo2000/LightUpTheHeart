@@ -1,7 +1,8 @@
 {
   "usingComponents": {
+    "van-grid": "@vant/weapp/grid/index",
+    "van-grid-item": "@vant/weapp/grid-item/index",
     "my-water":"/components/my-water/my-water",
-    "van-circle": "@vant/weapp/circle/index",
     "ec-shichang":"/components/ec-shichang/ec-shichang"
   }
 }

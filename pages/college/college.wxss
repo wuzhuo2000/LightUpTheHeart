@@ -123,10 +123,11 @@ swiper{
   margin:  0 auto;
   top:49rpx;
   z-index:-1;
+  overflow: hidden;
 }
 .data{
  position: absolute;
- left:106rpx;
+ left:90rpx;
   top:58rpx
 }
 .size{

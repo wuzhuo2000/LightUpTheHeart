@@ -78,6 +78,13 @@
 					"id": -1,
 					"name": "训练内容",
 					"pathName": "pages/TrainingContent/TrainingContent",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "分析",
+					"pathName": "pages/day/day",
 					"scene": null
 				}
 			]

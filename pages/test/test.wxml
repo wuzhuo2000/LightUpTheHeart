@@ -4,5 +4,6 @@
 <view class="water" >
     <my-water size="70"  />
 </view>
+<ec-shichang />
 
 

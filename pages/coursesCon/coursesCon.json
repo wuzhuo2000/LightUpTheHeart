@@ -3,5 +3,6 @@
     "title":"/components/title/title"
   },
   "navigationBarTitleText": "",
-  "navigationStyle": "custom"
+  "navigationStyle": "custom",
+  "navigationBarTextStyle":"white"
 }

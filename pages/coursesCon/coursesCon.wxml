@@ -1,3 +1,4 @@
+<view class="back" bindtap="back"></view>
 <view class="courses">
   <view class="video">
     <video id="myVideo" controls="{{false}}" show-center-play-btn="{{false}}" bindended="end" style="height:607rpx;width:750rpx;" src="{{video}}" bindtap="play" bindtimeupdate="bc"></video>

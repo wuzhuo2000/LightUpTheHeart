@@ -1,0 +1,142 @@
+<!--pages/day/day.wxml-->
+<view class='shopDetail-box'>
+  <view class="tab-left">
+    <view class="{{tabArr.curHdIndex=='1'? 'active' : ''}}" id="1" data-id="1" bindtap="tab">日</view>
+    <view class="{{tabArr.curHdIndex=='2'? 'active' : ''}}" id="2" data-id="2" bindtap="tab">周</view>
+  </view>
+
+  <view class="tab-right">
+    <view class="right-item {{tabArr.curBdIndex=='1'? 'active' : ''}}">
+      <!-- 睡眠效率 -->
+      <view class="efficiency">
+        <view class="date">
+          <image src="../../assets/images/sleep statistics/返回左@3x.png" class="icon-left"></image>
+          <view class="date-text">2020年06月14日</view>
+          <image src="../../assets/images/sleep statistics/返回右@3x.png" class="icon-right"></image>
+        </view>
+        <view class="water" >
+         <my-water size="25"/>
+         <!-- <view>25%</view> -->
+        </view>
+      </view>
+      <!-- 睡眠统计 -->
+<ec-shichang />
+      <view class="statistics">
+        <view class="sleep-text"><view></view>睡眠统计</view>
+          <view class="content">
+            <view>
+              <image src="../../assets/images/sleep statistics/分组 3@3x.png" style="width: 67rpx;height: 53rpx;"></image>
+              <view class="content-title">
+                <view class="content-time">22:00</view>
+                <view class="content-text">上床时间</view>
+              </view>
+            </view>
+            <view>
+              <image src="../../assets/images/sleep statistics/shuimianxuanzhong@3x.png" style="width: 64rpx;height: 56rpx;"></image>
+              <view class="content-title">
+                <view class="content-time">23:00-07:00</view>
+                <view class="content-text">睡眠时间段</view>
+              </view>
+            </view>
+            <view>
+              <image src="../../assets/images/sleep statistics/分组@3x(5).png" style="width: 56rpx;height: 60rpx;"></image>
+              <view class="content-title">
+                <view class="content-time">7h10min</view>
+                <view class="content-text">睡眠时长</view>
+              </view>
+            </view>
+            <view>
+              <image src="../../assets/images/sleep statistics/效率@3x.png" style="width: 59rpx;height: 60rpx;"></image>
+              <view class="content-title">
+                <view class="content-time">91%</view>
+                <view class="content-text">效率</view>
+              </view>
+            </view>
+            <view>
+              <image src="../../assets/images/sleep statistics/入睡@3x.png" style="width: 62rpx;height: 55rpx;"></image>
+              <view class="content-title">
+                <view class="content-time">30min</view>
+                <view class="content-text">入睡</view>
+              </view>
+            </view>
+            <view>
+             <image src="../../assets/images/sleep statistics/夜醒@3x.png" style="width: 51rpx;height: 55rpx;"></image>
+              <view class="content-title">
+                <view class="content-time">15min</view>
+                <view class="content-text">夜醒</view>
+              </view>
+            </view>
+        </view>
+      </view>
+        <!-- 睡眠分析 -->
+        <view class="analysis">
+          <view class="sleep-text"><view></view>睡眠分析</view>
+          <view class="van-ellipsis" style="margin-bottom:16rpx">
+            您<text>06月14日</text>晚的睡眠效率为<text>88%</text>，超过85%，睡眠质量<text>较高</text>睡眠时间为充分，但睡眠整体感觉一般，您的睡眠调节能力依然较强，无需过分担心，可以适当增加午睡，并稍微提升早上床并避免连续熬夜。
+          </view>
+          <view class="van-ellipsis">
+            您在夜间有轻微觉醒对整体睡眠影响不大，进食最好在睡前4小时进行，入睡会让你消化系统缓慢下来，而太接近睡前的大餐会导致夜间消化不想和反流。
+          </view>
+        </view>
+    </view>
+    <view class="right-item {{tabArr.curBdIndex=='2'? 'active' : ''}}">
+      <!-- 睡眠效率 -->
+      <view class="efficiency" style="height:654.99rpx">
+        <view class="date">
+          <image src="../../assets/images/sleep statistics/返回左@3x.png" class="icon-left"></image>
+          <view class="date-left">2020年06月14日至20日</view>
+          <image src="../../assets/images/sleep statistics/返回右@3x.png" class="icon-right"></image>
+        </view>
+        <view class="water" >
+         <my-water size="25"/>
+        </view>
+        <view class="efficiency-title">
+          <view class="fall rule">
+            <image src="../../assets/images/sleep statistics/入睡@3x(1).png" class="fall-icon"></image>
+            <text class="speed">入睡速度：</text>
+            <text class="fall-time">20min</text>
+            <text class="fall-text">(很好)</text>
+          </view>
+          <view class="fall" style="padding-left:22rpx">
+            <image src="../../assets/images/sleep statistics/夜醒@3x(1).png" class="fall-icon" style="width:27rpx;height:29rpx"></image>
+            <text class="speed">夜间醒来：</text>
+            <text class="fall-time">11min</text>
+            <text class="fall-text">(正常)</text>
+          </view>
+        </view>
+      </view>
+
+
+        <ec-shichang  style="height:1000rpx;width:750rpx;"/>
+      <!-- 起床时间分析 -->
+      <view class="analyze">
+        <view class="sleep-text"><view></view>起床时间分析<text>（07:01）</text></view>
+        <!-- <view class="container">
+          <ec-canvas id="mychart-dom-line" canvas-id="mychart-line" ec="{{ ec }}"></ec-canvas>
+        </view> -->
+        
+      </view>
+      
+      <!-- 补全日期日记 -->
+      <view class="time">
+        <view class="sleep-text"><view></view>补全日期日记</view>
+        <view class="content">
+          <view>
+            <image src="../../assets/images/sleep statistics/日历.png" style="width: 51rpx;height: 47rpx;" class="content-icon"></image>
+            <view class="content-title">
+              <view class="content-time">2020/06/17</view>
+              <view class="content-write">去填写 <image src="../../assets/images/sleep statistics/fanhui-4 copy@3x.png" class="content-write-img"></image></view>
+            </view>
+          </view>
+          <view>
+            <image src="../../assets/images/sleep statistics/日历.png" style="width: 51rpx;height: 47rpx;" class="content-icon"></image>
+            <view class="content-title">
+              <view class="content-time">2020/06/17</view>
+              <view class="content-write">去填写 <image src="../../assets/images/sleep statistics/fanhui-4 copy@3x.png" class="content-write-img"></image></view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

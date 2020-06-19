@@ -1,0 +1,32 @@
+<!--index.wxml-->
+  <my-nav bg="../../assets/images/doctor/ing1.png" class="img"></my-nav>
+  <view class="top">
+      请选择<text style="color:#1C52F0;letter-spacing:2rpx">3项</text>睡眠卫生作为下周睡眠
+        <text style="display:block;letter-spacing:2rpx">卫生服务。</text>
+  </view>
+  <view class="cont">
+  
+    <view class="box"> 
+        <text class="tex1">不赖床</text>
+        <text class="tex2">禁烟</text>
+        <text class="tex3">不在床上想事情</text>
+    </view>
+      <view class="box1"> 
+        <text class="tex4">不强迫自己入睡</text>
+        <text class="tex5">打造舒适睡眠环境</text>
+    </view>
+    <view class="box2"> 
+        <text class="tex1" style="background:rgba(255,255,255,1);border:1px solid rgba(242,242,242,1);color:rgba(102,102,102,1)">按时起床</text>
+        <text class="tex2" style="background:linear-gradient(335deg,rgba(0,94,237,1) 0%,rgba(106,158,237,1) 100%);color:rgba(255,255,255,1)">规律锻炼</text>
+        <text class="tex3">规律进食</text>
+    </view>
+      <view class="box3"> 
+        <text class="tex6">戒酒</text>
+        <text class="tex7">有困意再睡觉</text>
+        <text class="tex8">睡前少喝水</text>
+    </view>
+        <view class="box4"> 
+        <text class="tex9">少喝茶(咖啡)</text>
+    </view>
+  </view>
+  <view class="btn"><text>提交</text></view>

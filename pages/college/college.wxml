@@ -102,7 +102,7 @@
       <view class="riji">
         <view>请填写您昨晚睡眠日记</view>
       </view>
-      <navigator>
+      <navigator url="/pages/WeeklySleepRecord/WeeklySleepRecord">
         <text class="jilu">更多记录</text>
         <image src="/assets/images/college/fanhui-4.png" class="gengduo"></image>
       </navigator>
@@ -142,9 +142,13 @@
         <image src="/assets/images/college/fanhui-4.png" class="symbol"></image>
       </navigator>
     </view>
-    <view style="margin-top:70rpx">
-      <mission-cont title="正按时起床才是王道" con="失眠症患者呆在床上的时间越长，睡眠质量越差。" img="/assets/images/college/Bitmap(1).png"  class="mission-cont1"/>
-      <mission-cont title="选择卫生习惯" con="改掉不想习惯，还您良好睡 眠。" img="/assets/images/college/Bitmap.png" class="mission-cont1"/>
+    <view style="margin-top:70rpx" >
+      <navigator url="/pages/coursesCon/coursesCon">
+        <mission-cont title="正按时起床才是王道" con="失眠症患者呆在床上的时间越长，睡眠质量越差。" img="/assets/images/college/Bitmap(1).png"  class="mission-cont1"/>
+      </navigator>
+      <navigator url="/pages/somnus/somnus">
+        <mission-cont bindtap="weishengxiguan" title="选择卫生习惯" con="改掉不想习惯，还您良好睡 眠。" img="/assets/images/college/Bitmap.png" class="mission-cont1"/>
+      </navigator>
     </view>
     
 </view>

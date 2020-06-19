@@ -14,7 +14,12 @@
               <image src="{{item.src}}"></image>
               <view class="h3">{{item.title}}</view>
               <view class="p">{{item.con}}</view>
-              <view class="{{item.state?'wanc':'ywc'}}">{{item.state?"去完成":"已完成"}}</view>
+              <view class="{{item.state?'wanc':'ywc'}}">
+               <!-- 测试跳转 数据之后改 -->
+                <navigator url="/pages/coursesCon/coursesCon">
+                  {{item.state?"去完成":"已完成"}}  
+                </navigator>
+              </view>
               <image src="../../assets/images/daytime/wanc.png" wx:if="{{!item.state}}" class="wancheng"></image>
             </view>
           </view>

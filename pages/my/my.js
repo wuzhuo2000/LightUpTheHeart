@@ -7,12 +7,27 @@ Page({
   data: {
 
   },
+  doctor(){
+    wx.navigateTo({
+      url: '/pages/doctor/doctor',
+    })
+  },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+      wx.getUserInfo({
+        complete: (res) => {
+          console.log(res)
+          var headImg = res.userInfo.avatarUrl
+          var nickName = res.userInfo.nickName
+          this.setData({
+            headImg:headImg,
+            nickName:nickName
+          })
+        },
+      })
   },
 
   /**

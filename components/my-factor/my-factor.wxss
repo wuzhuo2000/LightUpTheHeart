@@ -4,7 +4,7 @@
 } */
 .content{
   width: 100%;
-  /* padding:20rpx 29rpx; */
+  padding:20rpx 29rpx;
   margin: 0 auto;
   border-bottom:1px solid rgb(208, 204, 204);
 }
@@ -64,7 +64,7 @@
 /* 光亮 */
 .textpos_a{
   top:55rpx;
-  left: 210rpx;
+  left: 230rpx;
   background:linear-gradient(180deg,rgba(96,135,249,1) 0%,rgba(28,82,240,1) 100%);
   box-shadow:0px 0px 9px 5px rgba(121,155,255,0.37);
   font-size:24rpx;
@@ -74,23 +74,23 @@
 }
 /* 不适 */
 .textpos_b{
-  left: 105rpx;
+  left: 125rpx;
   top:160rpx;
 }
 /* 压力 */
 .textpos_c{
   top:340rpx;
-  left:105rpx;
+  left:125rpx;
 }
 /* 床伴 */
 .textpos_d{
   top:460rpx;
-  left: 220rpx;
+  left: 240rpx;
 }
 /* 饱餐 */
 .textpos_e{
   top:460rpx;
-  left: 400rpx;
+  left: 420rpx;
   width:87rpx;
   height:87rpx;
   background:linear-gradient(180deg,rgba(96,135,249,1) 0%,rgba(28,82,240,1) 100%);
@@ -103,15 +103,15 @@
 /* 认床 */
 .textpos_f{
   top:340rpx;
-  left:520rpx;
+  left:540rpx;
 }
 /* 温度 */
 .textpos_g{
   top:160rpx;
-  left: 520rpx;
+  left: 540rpx;
 }
 /* 噪音 */
 .textpos_h{
-  left: 400rpx;
+  left: 420rpx;
   top:50rpx;
 }

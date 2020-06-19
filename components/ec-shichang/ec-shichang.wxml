@@ -1,0 +1,5 @@
+<!--components/ec-shichang/ec-shichang.wxml-->
+<text>图表</text>
+<view class="containers">
+    <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}" bind:init="echartInit"></ec-canvas>
+</view>

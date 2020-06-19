@@ -16,6 +16,12 @@
         "pages/college/college",
 
         "pages/RecordSleep/RecordSleep",
+
+        "pages/day/day",
+        
+        "pages/doctor/doctor",
+        "pages/somnus/somnus",
+
         
         "pages/test/test",
         "pages/logs/logs",
@@ -44,7 +50,7 @@
                 "selectedIconPath": "/assets/images/tabbar2/home-active.png"
             },
             {
-                "pagePath": "pages/RecordSleep/RecordSleep",
+                "pagePath": "pages/test/test",
                 "text": "睡眠分析",
                 "iconPath": "/assets/images/tabbar2/fenxi.png",
                 "selectedIconPath": "/assets/images/tabbar2/fenxi-active.png"

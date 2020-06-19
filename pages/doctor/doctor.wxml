@@ -1,0 +1,59 @@
+<view class="nav">
+  <image class="ren" src="../../assets/images/doctor/ren.png"></image>
+  <view>
+    <view class="se da">认识行为治疗系统医生</view>
+    <view class="se" id="se">主任医师 | 寝安医院</view>
+  </view>
+</view>
+<view class="li">
+  <view class="dian"></view>
+  <text class="wen0">报告分析</text>
+  <text class="icon"></text>
+</view>
+<view class="li">
+  <view class="dian"></view>
+  <text class="wen1">失眠改善入组前评估</text>
+  <text class="font">2020-06-14 截止</text>
+</view>
+<view class="cont">
+  <view class="p">
+    <view class="span1">
+        <text class="tex1">12.09分</text>  
+        <text class="tex2">不存在</text>  
+        <text class="tex3">肯定存在</text>  
+        <text class="tex4">医院焦虑抑郁表</text>
+        <text class="tex5">去查看
+          <text class="tex6"></text>
+        </text>
+
+    </view>
+    <view class="span2">
+        <text class="tex1">11分</text>
+        <text class="tex7">重度失眠</text>
+        <text class="tex8">轻度失眠
+          <text >正常</text>
+        </text>
+        <text class="tex9">失眠严重指数量表</text>
+        <text class="tex5">去查看
+          <text class="tex6"></text>
+        </text>
+    </view>
+  </view>
+  <view class="p">
+    <view class="span3">
+      <text class="tex1">已完成</text>
+      <text class="tex9">入睡前觉醒量表</text>
+      <text class="tex5">去查看
+          <text class="tex6"></text>
+        </text>
+    </view>
+    <view class="span4">
+       <text class="tex1">已完成</text>
+       <text class="tex9">社会人口学和睡眠状况资料</text>
+       <text class="tex5">去查看
+          <text class="tex6"></text>
+        </text>
+    </view>
+  </view>
+</view>
+

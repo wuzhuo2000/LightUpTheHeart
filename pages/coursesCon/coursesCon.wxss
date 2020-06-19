@@ -3,6 +3,18 @@
   width:100%;
   height:480rpx;
 }
+.back{
+  position: fixed;
+  left: 30rpx;
+  top: 70rpx;
+  display: flex;
+  width: 17.5rpx;
+  height:17.5rpx;
+  border-left: 4rpx solid white;
+  border-top: 4rpx solid white;
+  transform: rotate(-45deg);
+  z-index: 999;
+}
 .tit{
   width:100%;
   height:110rpx;

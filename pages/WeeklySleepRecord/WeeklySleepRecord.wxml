@@ -23,7 +23,10 @@
             <view class="moon">  
                 <image src="/assets/images/weeklysleeprecord/moons.png"></image>      
                 <text class="littitle">睡眠日记</text>
-                <view class="butian">我要补填</view>
+                <view class="butian">
+                    <navigator url="/pages/RecordSleep/RecordSleep">我要补填
+                    </navigator>
+                </view>
             </view>
             <view class="sun">
              <image src="/assets/images/weeklysleeprecord/suns.png"></image> 
